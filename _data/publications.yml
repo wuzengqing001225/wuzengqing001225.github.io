@@ -20,10 +20,10 @@ main:
     image: ./assets/img/Paper_Cover/2024_01_IEEE_TE.png
     # notes: Early Accept
 
-  - title: Large Language Models as Urban Residents: An LLM Agent Framework for Personal Mobility Generation
-    authors: Jiawei Wang, Renhe Jiang*, Chuang Yang, <strong>Zengqing Wu</strong>, Makoto Onizuka, Ryosuke Shibasaki, Chuan Xiao
-    conference_short: arXiv
-    conference: arXiv, 2024.
-    pdf: https://arxiv.org/pdf/2402.14744.pdf
-    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:Vbgj-gP4_lAJ:scholar.google.com/&output=citation&scisdr=ClGMCa4_EIOHtFh4RdU:AFWwaeYAAAAAZfR-XdU83yWBF6ImSqEqvlsatgU&scisig=AFWwaeYAAAAAZfR-XfPgO4AYitCTALxWcUKUjXo&scisf=4&ct=citation&cd=-1&hl=zh-CN
-    image: ./assets/img/Paper_Cover/2024_02_LLMob.jpg
+  # - title: Large Language Models as Urban Residents: An LLM Agent Framework for Personal Mobility Generation
+  #   authors: Jiawei Wang, Renhe Jiang*, Chuang Yang, <strong>Zengqing Wu</strong>, Makoto Onizuka, Ryosuke Shibasaki, Chuan Xiao
+  #   conference_short: arXiv
+  #   conference: arXiv, 2024.
+  #   pdf: https://arxiv.org/pdf/2402.14744.pdf
+  #   bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:Vbgj-gP4_lAJ:scholar.google.com/&output=citation&scisdr=ClGMCa4_EIOHtFh4RdU:AFWwaeYAAAAAZfR-XdU83yWBF6ImSqEqvlsatgU&scisig=AFWwaeYAAAAAZfR-XfPgO4AYitCTALxWcUKUjXo&scisf=4&ct=citation&cd=-1&hl=zh-CN
+  #   image: ./assets/img/Paper_Cover/2024_02_LLMob.jpg
