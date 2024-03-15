@@ -10,9 +10,9 @@ He serves as a technical assistant in the Graduate School of Information Science
 
 ## Research Interests
 
-- **Computer Simulation**: Large Language Models in Computer Simulation, Agent-Based Modeling
-- **Computational Social Science**
-- **Education**
+- **Computer Simulation**: Agent-Based Modeling, Large Language Models in Computer Simulation
+- **Computational Social Science**: Complex Systems, Network Science, Opinion Dynamics
+- **Education**: Mathematical Modeling, Teaching and Learning Assessment
 
 ## Education
 - M.Eng. in Informatics, Kyoto University, 2025
@@ -20,10 +20,9 @@ He serves as a technical assistant in the Graduate School of Information Science
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[Feb. 2024]** [LLMob](https://arxiv.org/abs/2402.14744): As a joint work with the University of Tokyo, we developed an LLM agent framework for the generation of personal activity trajectories. 
+- **[Jan. 2024]** Our [paper](https://drive.google.com/file/d/1OHINx0XsqTKS-rHOJCTqdY8Cz664Beez/view), which investigates the application of Shannon entropy in assessing students' abstraction levels to optimize students' learning process, has been accepted in the IEEE Transactions on Education (ToE).
+- **[Nov. 2023]** [SABM](https://arxiv.org/abs/2311.06330): We developed a computer simulation framework that incorporates LLMs into agent-based modeling. We released the [slides](https://docs.google.com/presentation/d/1GqLjlsjfaN-sbNvLENkAnx8OMlSgeUcz/edit?usp=sharing&ouid=110669723869294635935&rtpof=true&sd=true) and [source codes](https://github.com/Roihn/SABM).
 
 {% include_relative _includes/publications.md %}
 
