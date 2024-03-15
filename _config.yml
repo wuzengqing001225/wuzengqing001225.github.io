@@ -13,14 +13,14 @@ canonical: wuzengqing001225.github.io
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: https://scholar.google.com/citations?user=8p3HcqsAAAAJ
-cv_link: assets/files/curriculum_vitae.pdf
+cv_link: assets/files/CV_Zengqing_Wu_202403.pdf
 github_link: https://github.com/wuzengqing001225
 linkedin: https://www.linkedin.com/in/zengqing-wu-4222861b9
 twitter: https://twitter.com/WuZengqing
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/avatar.png
+avatar: ./assets/img/Google_Scholar_Image.png
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
 
