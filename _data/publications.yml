@@ -9,7 +9,7 @@ main:
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:uL9XLQdXWREJ:scholar.google.com/&output=citation&scisdr=ClGMCa4_EIOHtFh69R4:AFWwaeYAAAAAZfR87R6XQwYl0kwfcDhjXrG2hLA&scisig=AFWwaeYAAAAAZfR87Uo9NB3KB56s-0Go8Ezn12s&scisf=4&ct=citation&cd=-1&hl=zh-CN
     # notes: arXiv
-    image: ./assets/img/Paper DALL-E Cover/2023_11_SABM.png
+    image: ./assets/img/Paper_Cover/2023_11_SABM.png
     
   - title: Utilization of Information Entropy in Training and Evaluation of Students’ Abstraction Performance and Algorithm Efficiency in Programming
     authors: <strong>Zengqing Wu*</strong>, Huizhong Liu, Chuan Xiao*
@@ -17,7 +17,7 @@ main:
     conference: IEEE Transactions on Education <strong>(IEEE-TE)</strong>, 2024.
     pdf: https://drive.google.com/file/d/1OHINx0XsqTKS-rHOJCTqdY8Cz664Beez/view
     bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:eAYFDs6RVHMJ:scholar.google.com/&output=citation&scisdr=ClGMCa4_EIOHtFh7uMY:AFWwaeYAAAAAZfR9oMZfOC5aglYiOh5D5cW9th4&scisig=AFWwaeYAAAAAZfR9oEkfnUHHPaz595qtltltY2E&scisf=4&ct=citation&cd=-1&hl=zh-CN
-    image: ./assets/img/Paper DALL-E Cover/2024_01_IEEE_TE.png
+    image: ./assets/img/Paper_Cover/2024_01_IEEE_TE.png
     # notes: Early Accept
 
   - title: Large Language Models as Urban Residents: An LLM Agent Framework for Personal Mobility Generation
@@ -26,4 +26,4 @@ main:
     conference: arXiv, 2024.
     pdf: https://arxiv.org/pdf/2402.14744.pdf
     bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:Vbgj-gP4_lAJ:scholar.google.com/&output=citation&scisdr=ClGMCa4_EIOHtFh4RdU:AFWwaeYAAAAAZfR-XdU83yWBF6ImSqEqvlsatgU&scisig=AFWwaeYAAAAAZfR-XfPgO4AYitCTALxWcUKUjXo&scisf=4&ct=citation&cd=-1&hl=zh-CN
-    image: ./assets/img/Paper DALL-E Cover/2024_02_LLMob.jpg
+    image: ./assets/img/Paper_Cover/2024_02_LLMob.jpg
