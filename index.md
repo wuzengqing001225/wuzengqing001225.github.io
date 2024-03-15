@@ -26,4 +26,6 @@ He serves as a technical assistant in the Graduate School of Information Science
 
 {% include_relative _includes/publications.md %}
 
+A complete list of research papers is available at: [Publications](./assets/files/Publication_List_Zengqing_Wu.pdf)
+
 {% include_relative _includes/services.md %}
