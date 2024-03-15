@@ -2,7 +2,7 @@
 layout: homepage
 ---
 
-## About Me
+## Biography
 
 Zengqing Wu is a master's student in the Graduate School of Informatics at Kyoto University. His main research focus is computational social science, especially the application of large language models in computer simulation.
 
