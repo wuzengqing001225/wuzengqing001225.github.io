@@ -18,7 +18,7 @@ layout: homepage
 - 京都大学，计算机系，工学硕士，2025年（预计）
 - 大阪大学，社会学系，社会学学士，2023年
 
-## News
+## 新闻
 
 - **[Feb. 2024]** [LLMob](https://arxiv.org/abs/2402.14744): 与东京大学合作，我们开发了一个用于生成个人活动轨迹的LLM代理框架。
 - **[Jan. 2024]** 我们的[论文](https://drive.google.com/file/d/1OHINx0XsqTKS-rHOJCTqdY8Cz664Beez/view)，探讨了在评估学生抽象水平以优化学习过程中应用香农熵，已被IEEE Transactions on Education（ToE）接收。
