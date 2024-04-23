@@ -2,31 +2,34 @@
 layout: homepage
 ---
 
-## Biography
+## 略歴
 
-Zengqing Wu is a master's student in the Graduate School of Informatics at Kyoto University. His main research focus is computational social science, especially the application of large language models in computer simulation.
+京都大学大学院情報学研究科の修士課程の学生です。主な研究分野は計算社会科学で、特にコンピュータシミュレーションにおける大規模言語モデルの応用に焦点を当てています。
 
-He serves as a technical assistant in the Graduate School of Information Science and Technology at Osaka University, under the guidance of his supervisor, [Prof. Chuan Xiao](https://sites.google.com/site/chuanxiao1983/home). He is also a part-time lecturer for the mathematical modeling course at the Computer Center of China Welfare Institute Children's Palace.
+大阪大学大学院情報科学研究科で技術補佐員を務めており、指導教員の[肖川先生](https://sites.google.com/site/chuanxiao1983/home)のもとで研究しています。また、中国福利会少年宮のコンピュータセンターで数理モデリングのコースの非常勤講師も務めています。
 
-## Research Interests
+## 研究分野
 
-- **Computer Simulation**: Agent-Based Modeling, Large Language Models in Computer Simulation
-- **Computational Social Science**: Complex Systems, Network Science
-- **Education**: Mathematical Modeling, Teaching and Learning Assessment
+- **コンピュータシミュレーション**: エージェントベースモデリング、コンピュータシミュレーションにおける大規模言語モデル
+- **計算社会科学**: 複雑系、ネットワーク科学
+- **教育学**: 数理モデリング、教育評価
 
-## Education
-- M.Eng. in Informatics, Kyoto University, 2025
-- B.A. in Human Sciences, Osaka University, 2023
 
-## News
+## 学歴
 
-- **[Feb. 2024]** [LLMob](https://arxiv.org/abs/2402.14744): As a joint work with the University of Tokyo, we developed an LLM agent framework for the generation of personal activity trajectories. 
-- **[Jan. 2024]** Our [paper](https://drive.google.com/file/d/1OHINx0XsqTKS-rHOJCTqdY8Cz664Beez/view), which investigates the application of Shannon entropy in assessing students' abstraction levels to optimize students' learning process, has been accepted in the IEEE Transactions on Education (ToE).
-- **[Nov. 2023]** [SABM](https://arxiv.org/abs/2311.06330): We developed a computer simulation framework that incorporates LLMs into agent-based modeling. We released the [slides](https://docs.google.com/presentation/d/1GqLjlsjfaN-sbNvLENkAnx8OMlSgeUcz/edit?usp=sharing&ouid=110669723869294635935&rtpof=true&sd=true) and [source codes](https://github.com/Roihn/SABM).
+- 京都大学，大学院情報学研究科，修士課程修了予定，2025年
+- 大阪大学，人間科学部，2023年
+
+## お知らせ
+
+- **[2024年2月]** [LLMob](https://arxiv.org/abs/2402.14744): 東京大学との共同研究により、個人の活動軌道を生成するLLMエージェントフレームワークを開発しました。
+- **[2024年1月]** 我々の[論文](https://drive.google.com/file/d/1OHINx0XsqTKS-rHOJCTqdY8Cz664Beez/view)は、生徒の抽象化レベルを評価するためにシャノンエントロピーの応用を研究し、IEEE Transactions on Education (ToE)に採用されました。
+- **[2023年11月]** [SABM](https://arxiv.org/abs/2311.06330): エージェントベースモデリングにLLMを組み込むコンピュータシミュレーションフレームワークを開発しました。スライドと[ソースコード](https://github.com/Roihn/SABM)を公開しました。
+
 
 {% include_relative _includes/publications.md %}
 
-A complete list of research papers is available at: [Publications](./assets/files/Publication_List_Zengqing_Wu.pdf)
+研究論文のリストは以下のリンクからご覧いただけます: [Publications](./assets/files/Publication_List_Zengqing_Wu.pdf)
 
 {% include_relative _includes/awards.md %}
 
