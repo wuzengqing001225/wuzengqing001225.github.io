@@ -24,10 +24,10 @@ layout: homepage
 - **[Jan. 2024]** 我们的[论文](https://drive.google.com/file/d/1OHINx0XsqTKS-rHOJCTqdY8Cz664Beez/view)，探讨了在评估学生抽象水平以优化学习过程中应用香农熵，已被IEEE Transactions on Education（ToE）接收。
 - **[Nov. 2023]** [SABM](https://arxiv.org/abs/2311.06330): 我们开发了一个计算机模拟框架，将LLM集成到基于代理的建模中。我们发布了[演讲](https://docs.google.com/presentation/d/1GqLjlsjfaN-sbNvLENkAnx8OMlSgeUcz/edit?usp=sharing&ouid=110669723869294635935&rtpof=true&sd=true)和[源代码](https://github.com/Roihn/SABM).
 
-{% include_relative _includes/publications.md %}
+{% include_relative _includes/publications_cn.md %}
 
 研究论文的完整列表可在以下网址查看：[Publications](./assets/files/Publication_List_Zengqing_Wu.pdf)
 
-{% include_relative _includes/awards.md %}
+{% include_relative _includes/awards_cn.md %}
 
-{% include_relative _includes/services.md %}
+{% include_relative _includes/services_cn.md %}
