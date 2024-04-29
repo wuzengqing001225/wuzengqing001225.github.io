@@ -27,10 +27,10 @@ layout: homepage
 - **[2023年11月]** [SABM](https://arxiv.org/abs/2311.06330): エージェントベースモデリングにLLMを組み込むコンピュータシミュレーションフレームワークを開発しました。スライドと[ソースコード](https://github.com/Roihn/SABM)を公開しました。
 
 
-{% include_relative _includes/publications.md %}
+{% include_relative _includes/publications_jp.md %}
 
 研究論文のリストは以下のリンクからご覧いただけます: [Publications](./assets/files/Publication_List_Zengqing_Wu.pdf)
 
-{% include_relative _includes/awards.md %}
+{% include_relative _includes/awards_jp.md %}
 
-{% include_relative _includes/services.md %}
+{% include_relative _includes/services_jp.md %}
