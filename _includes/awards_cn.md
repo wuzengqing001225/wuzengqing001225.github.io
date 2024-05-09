@@ -9,3 +9,4 @@
 ### 指导学生获奖
 - 2021 国际数学建模挑战赛(IMMC) Outstanding（共同指导老师：Mr. Linfeng Dong）
 - 2022 美国高中生数学建模竞赛(HiMCM) Meritorious
+- 2024 国际数学建模挑战赛(IMMC) Meritorious（共同指导老师：Mr. Linfeng Dong）
