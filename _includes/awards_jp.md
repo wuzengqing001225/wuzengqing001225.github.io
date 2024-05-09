@@ -10,3 +10,4 @@
 ### 指導学生の受賞
 - 2021 Outstanding in the International Mathematical Modeling Challenge 2021 (IMMC) with co-supervisor Mr. Linfeng Dong
 - 2022 Meritorious in High School Mathematical Contest in Modeling 2022 (HiMCM)
+- 2024 Meritorious in the International Mathematical Modeling Challenge 2024 (IMMC) with co-supervisor Mr. Linfeng Dong
