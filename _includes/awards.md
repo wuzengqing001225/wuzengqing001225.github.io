@@ -6,6 +6,7 @@
 - 2018 Top 10 Outstanding Youth in Shanghai Changning District
 - 2018 Finalist in High School Mathematical Contest in Modeling (HiMCM)
 - 2015 First Prize of National Olympiad in Informatics in Provinces, Shanghai, China (NOIP)
+- 2013 First Prize of Japan Sansu Olympic
 
 ### Supervised Student Awards
 - 2021 Outstanding in the International Mathematical Modeling Challenge (IMMC) with co-supervisor Mr. Linfeng Dong
