@@ -17,8 +17,8 @@ He serves as a research associate / technical staff in the Graduate School of In
 - **Education**: Mathematical Modeling, Teaching and Learning Assessment
 
 ## Education
-- M.Eng. in Informatics, Kyoto University, 2025
-- B.A. in Human Sciences, Osaka University, 2023
+- M.Eng. in Informatics, Kyoto University, 2025 supervised by Prof. [Takayuki Ito](https://researchmap.jp/takayuki.ito)
+- B.A. in Human Sciences, Osaka University, 2023 supervised by Prof. [Christian Etzrodt](https://researchmap.jp/7000013493?lang=en) and Prof. [Chuan Xiao](https://sites.google.com/site/chuanxiao1983/home)
 
 ## News
 
