@@ -7,7 +7,7 @@
   <li><a href="http://iccv2021.thecvf.com/"><autocolor>IEEE/CVF International Conference on Computer Vision (ICCV) 2021</autocolor></a></li>
   <li><a href="https://eccv2022.ecva.net/"><autocolor>European Conference on Computer Vision (ECCV) 2022</autocolor></a></li> -->
   <li>审稿人：ICLR 2024 Workshop LLMAgents, NIPS 2024</li>
-  <li>外部审稿人：CIKM 2022, DASFAA 2023, KDD 2023, ADMA 2023, APWeb-WAIM 2024, EMNLP 2024</li>
+  <li>外部审稿人：CIKM 2022, DASFAA 2023, KDD 2023, ADMA 2023, APWeb-WAIM 2024, EMNLP 2024, ADMA 2024</li>
 </ul>
 
 <h4 style="margin:0 10px 0;">期刊同行评议</h4>
