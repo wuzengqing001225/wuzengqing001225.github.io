@@ -26,7 +26,7 @@ He serves as a research associate / technical staff in the Graduate School of In
 ## News
 
 - **[Sep. 2024]** [Shall We Team Up](https://arxiv.org/abs/2402.12327): Following the SABM framework, we discovered the spontaneous cooperation of LLM agents in competing environments. Source codes for case studies are available [here](https://github.com/wuzengqing001225/SABM_ShallWeTeamUp). Our paper is to appear at **EMNLP 2024 (Findings)**.
-- **[Sep. 2024]** [LLMob](https://arxiv.org/abs/2402.14744): As a joint work with the University of Tokyo, we developed an LLM agent framework for the generation of personal activity trajectories. This work will appear at NeurIPS 2024. Source code is [here](https://github.com/Wangjw6/LLMob/).
+- **[Sep. 2024]** [LLMob](https://arxiv.org/abs/2402.14744): As a joint work with the University of Tokyo, we developed an LLM agent framework for the generation of personal activity trajectories. This work will appear at **NeurIPS 2024**. Source code is [here](https://github.com/Wangjw6/LLMob/).
 - **[Jan. 2024]** Our [paper](https://drive.google.com/file/d/1OHINx0XsqTKS-rHOJCTqdY8Cz664Beez/view), which investigates the application of Shannon entropy in assessing students' abstraction levels to optimize students' learning process, has been accepted in the **IEEE Transactions on Education (ToE)**.
 - **[Nov. 2023]** [SABM](https://arxiv.org/abs/2311.06330): We developed a computer simulation framework that incorporates LLMs into agent-based modeling. We released the [slides](https://docs.google.com/presentation/d/1GqLjlsjfaN-sbNvLENkAnx8OMlSgeUcz/edit?usp=sharing&ouid=110669723869294635935&rtpof=true&sd=true) and [source codes](https://github.com/Roihn/SABM).
 
