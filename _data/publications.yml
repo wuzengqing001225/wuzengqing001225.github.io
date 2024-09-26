@@ -8,6 +8,14 @@ main:
     code: https://github.com/wuzengqing001225/SABM_ShallWeTeamUp
     image: ./assets/img/Paper_Cover/2024_09_ShallWeTeamUp.png
 
+  - title: "Large Language Models as Urban Residents: An LLM Agent Framework for Personal Mobility Generation"
+    authors: Jiawei Wang, Renhe Jiang*, Chuang Yang, <strong>Zengqing Wu</strong>, Makoto Onizuka, Ryosuke Shibasaki, Chuan Xiao
+    conference_short: NIPS
+    conference: Thirty-Eighth Annual Conference on Neural Information Processing Systems.
+    pdf: https://arxiv.org/pdf/2402.14744.pdf
+    code: https://github.com/Wangjw6/LLMob/
+    image: ./assets/img/Paper_Cover/2024_02_LLMob_2.jpg
+
   - title: "Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations"
     authors: <strong>Zengqing Wu</strong>, Run Peng, Xu Han, Shuyuan Zheng, Yixin Zhang, Chuan Xiao*
     conference_short: arXiv
@@ -22,11 +30,4 @@ main:
     conference: IEEE Transactions on Education <strong>(IEEE-TE)</strong>, 2024.
     pdf: https://drive.google.com/file/d/1OHINx0XsqTKS-rHOJCTqdY8Cz664Beez/view
     image: ./assets/img/Paper_Cover/2024_01_IEEE_TE.png
-
-  - title: "Large Language Models as Urban Residents: An LLM Agent Framework for Personal Mobility Generation"
-    authors: Jiawei Wang, Renhe Jiang*, Chuang Yang, <strong>Zengqing Wu</strong>, Makoto Onizuka, Ryosuke Shibasaki, Chuan Xiao
-    conference_short: arXiv
-    conference: arXiv, 2024.
-    pdf: https://arxiv.org/pdf/2402.14744.pdf
-    code: https://github.com/Wangjw6/LLMob/
-    image: ./assets/img/Paper_Cover/2024_02_LLMob.jpg
+  
