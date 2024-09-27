@@ -16,13 +16,6 @@ He serves as a research associate / technical staff in the Graduate School of In
 - **Computational Social Science**: Complex Systems, Social Simulation
 - **Education**: Mathematical Modeling, Teaching and Learning Assessment
 
-## Education
-- M.Eng. in Informatics, Kyoto University, 2025<br/>
-  Supervised by Prof. [Takayuki Ito](https://researchmap.jp/takayuki.ito)
-  
-- B.A. in Human Sciences, Osaka University, 2023<br/>
-  Supervised by Prof. [Christian Etzrodt](https://researchmap.jp/7000013493?lang=en) and Prof. [Chuan Xiao](https://sites.google.com/site/chuanxiao1983/home)
-
 ## News
 
 - **[Sep. 2024]** [Shall We Team Up](https://arxiv.org/abs/2402.12327): Following the SABM framework, we discovered the spontaneous cooperation of LLM agents in competing environments. Source codes for case studies are available [here](https://github.com/wuzengqing001225/SABM_ShallWeTeamUp). Our paper is to appear at **EMNLP 2024 (Findings)**.
@@ -33,6 +26,13 @@ He serves as a research associate / technical staff in the Graduate School of In
 {% include_relative _includes/publications.md %}
 
 A complete list of research papers is available at: [Publications](./assets/files/Publication_List_Zengqing_Wu.pdf)
+
+## Education
+- M.Eng. in Informatics, Kyoto University, 2025<br/>
+  Supervised by Prof. [Takayuki Ito](https://researchmap.jp/takayuki.ito)
+  
+- B.A. in Human Sciences, Osaka University, 2023<br/>
+  Supervised by Prof. [Christian Etzrodt](https://researchmap.jp/7000013493?lang=en) and Prof. [Chuan Xiao](https://sites.google.com/site/chuanxiao1983/home)
 
 {% include_relative _includes/awards.md %}
 
