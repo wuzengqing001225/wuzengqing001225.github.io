@@ -21,5 +21,6 @@
 <h4 style="margin:0 10px 0;">Professional Memberships</h4>
 
 <ul style="margin:0 0 5px;">
-  <li>The Database Society of Japan</li>
+  <li>The Database Society of Japan (DBSJ)</li>
+  <li>The Association for Computational Linguistics (ACL)</li>
 </ul>
