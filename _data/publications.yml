@@ -10,7 +10,7 @@ main:
 
   - title: "Large Language Models as Urban Residents: An LLM Agent Framework for Personal Mobility Generation"
     authors: Jiawei Wang, Renhe Jiang*, Chuang Yang, <strong>Zengqing Wu</strong>, Makoto Onizuka, Ryosuke Shibasaki, Chuan Xiao
-    conference_short: NIPS
+    conference_short: NeurIPS
     conference: Thirty-Eighth Annual Conference on Neural Information Processing Systems.
     pdf: https://arxiv.org/pdf/2402.14744.pdf
     code: https://github.com/Wangjw6/LLMob/
