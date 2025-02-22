@@ -6,7 +6,7 @@
 <!--   <li><a href="http://cvpr2023.thecvf.com/"><autocolor>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2021-2023</autocolor></a></li>
   <li><a href="http://iccv2021.thecvf.com/"><autocolor>IEEE/CVF International Conference on Computer Vision (ICCV) 2021</autocolor></a></li>
   <li><a href="https://eccv2022.ecva.net/"><autocolor>European Conference on Computer Vision (ECCV) 2022</autocolor></a></li> -->
-  <li>Reviewer: ICLR 2024 Workshop LLMAgents, NIPS 2024, ICLR 2025, AISTATS 2025, ICML 2025</li>
+  <li>Reviewer: ICLR 2024 Workshop LLMAgents, NeurIPS 2024, ICLR 2025, AISTATS 2025, ICML 2025, ACL 2025, NeurIPS 2025</li>
   <li>External Reviewer: CIKM 2022, DASFAA 2023, KDD 2023, ADMA 2023, APWeb-WAIM 2024, EMNLP 2024, ADMA 2024</li>
 </ul>
 
