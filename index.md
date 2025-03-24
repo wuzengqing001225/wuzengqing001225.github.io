@@ -18,6 +18,7 @@ He serves as a research associate / technical staff in the Graduate School of In
 
 ## News
 
+- **[Mar. 2025]** Reached the milestone of 100 citations :)
 - **[Dec. 2024]** Presented a poster at the 2024 Australasian Database Conference (ADC 2024) in Tokyo, Japan @ Tokyo Institute of Technology.
 - **[Sep. 2024]** [Shall We Team Up](https://arxiv.org/abs/2402.12327): Following the SABM framework, we discovered the spontaneous cooperation of LLM agents in competing environments. Source codes for case studies are available [here](https://github.com/wuzengqing001225/SABM_ShallWeTeamUp). Our paper is to appear at **EMNLP 2024 (Findings)**.
 - **[Sep. 2024]** [LLMob](https://arxiv.org/abs/2402.14744): As a joint work with the University of Tokyo, we developed an LLM agent framework for the generation of personal activity trajectories. This work will appear at **NeurIPS 2024**. Source code is [here](https://github.com/Wangjw6/LLMob/).
