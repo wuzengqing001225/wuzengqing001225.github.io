@@ -29,7 +29,7 @@ He serves as a research associate / technical staff in the Graduate School of In
 
 {% include_relative _includes/publications.md %}
 
-A complete list of research papers is available at: [Publications](./assets/files/Publication_List_Zengqing_Wu.pdf)
+<!-- A complete list of research papers is available at: [Publications](./assets/files/Publication_List_Zengqing_Wu.pdf) -->
 
 ## Education
 - M.Eng. in Informatics, Kyoto University, 2025<br/>
