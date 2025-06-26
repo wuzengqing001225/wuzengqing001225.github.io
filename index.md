@@ -18,6 +18,7 @@ He serves as a research associate / technical staff in the Graduate School of In
 
 ## News
 
+- **[Jun. 2025]** We argue that LLM-based social simulations need clear boundaries to meaningfully contribute to social science research in our [position paper](https://arxiv.org/abs/2506.19806).
 - **[Mar. 2025]** Reached the milestone of 100 citations :)
 - **[Dec. 2024]** Presented a poster at the 2024 Australasian Database Conference (ADC 2024) in Tokyo, Japan @ Tokyo Institute of Technology.
 - **[Sep. 2024]** [Shall We Team Up](https://arxiv.org/abs/2402.12327): Following the SABM framework, we discovered the spontaneous cooperation of LLM agents in competing environments. Source codes for case studies are available [here](https://github.com/wuzengqing001225/SABM_ShallWeTeamUp). Our paper is to appear at **EMNLP 2024 (Findings)**.
