@@ -18,7 +18,7 @@ He serves as a research associate / technical staff in the Graduate School of In
 
 ## News
 
-- **[Aug. 2025]** [The Hidden Strength of Disagreement](https://arxiv.org/abs/2502.16565): We discovered that implicit consensus mechanisms can outperform explicit coordination in dynamic environments requiring long-horizon adaptability, where preserving agent diversity enhances exploration and robustness. Our paper is to appear at **EMNLP 2025 (Main, Oral)**.
+- **[Aug. 2025]** [The Hidden Strength of Disagreement](https://arxiv.org/abs/2502.16565): We discovered that implicit consensus mechanisms can outperform explicit coordination in dynamic environments requiring long-horizon adaptability, where preserving agent diversity enhances exploration and robustness. Our paper is to appear at **EMNLP 2025 (Main)**.
 - **[Jun. 2025]** We argue that LLM-based social simulations need clear boundaries to meaningfully contribute to social science research in our [position paper](https://arxiv.org/abs/2506.19806).
 - **[Mar. 2025]** Reached the milestone of 100 citations :)
 - **[Dec. 2024]** Presented a poster at the 2024 Australasian Database Conference (ADC 2024) in Tokyo, Japan @ Tokyo Institute of Technology.
