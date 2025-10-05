@@ -16,14 +16,15 @@ Zengqing Wu is a researcher at The University of Osaka under the supervision of 
 
 ## News
 
-- **[Aug. 2025]** [The Hidden Strength of Disagreement](https://arxiv.org/abs/2502.16565): We discovered that implicit consensus mechanisms can outperform explicit coordination in dynamic environments requiring long-horizon adaptability, where preserving agent diversity enhances exploration and robustness. Our paper is to appear at **EMNLP 2025 (Main)**.
+- **[Oct. 2025]** Gave an oral presentation at [7th Joint Korea-Japan Workshop on Management of Data]() (KJMD) @ Busan, South Korea.
+- **[Aug. 2025]** [The Hidden Strength of Disagreement](https://arxiv.org/abs/2502.16565): We discovered that implicit consensus mechanisms can outperform explicit coordination in dynamic environments requiring long-horizon adaptability, where preserving agent diversity enhances exploration and robustness. Our paper is to appear at **EMNLP 2025 (Main)** @ Suzhou, China.
 - **[Jun. 2025]** We argue that LLM-based social simulations need clear boundaries to meaningfully contribute to social science research in our [position paper](https://arxiv.org/abs/2506.19806).
 - **[Mar. 2025]** Reached the milestone of 100 citations :)
-- **[Dec. 2024]** Presented a poster at the 2024 Australasian Database Conference (ADC 2024) in Tokyo, Japan @ Tokyo Institute of Technology.
-- **[Sep. 2024]** [Shall We Team Up](https://arxiv.org/abs/2402.12327): Following the SABM framework, we discovered the spontaneous cooperation of LLM agents in competing environments. Source codes for case studies are available [here](https://github.com/wuzengqing001225/SABM_ShallWeTeamUp). Our paper is to appear at **EMNLP 2024 (Findings)**.
+- **[Dec. 2024]** Presented a poster at the 2024 Australasian Database Conference (ADC 2024) @ Tokyo Institute of Technology, Tokyo, Japan.
+- **[Sep. 2024]** [Shall We Team Up](https://arxiv.org/abs/2402.12327): Following the SABM framework, we discovered the spontaneous cooperation of LLM agents in competing environments. Source codes for case studies are available [here](https://github.com/wuzengqing001225/SABM_ShallWeTeamUp). Our paper is to appear at **EMNLP 2024 (Findings)** @ Miami, USA.
 - **[Sep. 2024]** [LLMob](https://arxiv.org/abs/2402.14744): As a joint work with the University of Tokyo, we developed an LLM agent framework for the generation of personal activity trajectories. This work will appear at **NeurIPS 2024**. Source code is [here](https://github.com/Wangjw6/LLMob/).
 - **[Jul. 2024]** Presented a poster online at the ICML 2024 Workshop Agentic Markets (AMW @ ICML 2024).
-- **[Jun. 2024]** Presented a poster at the Eighth International Workshop on Symbolic-Neural Learning (SNL 2024) in Tokyo, Japan @ National Museum of Emerging Science and Innovation (Miraikan).
+- **[Jun. 2024]** Presented a poster at the Eighth International Workshop on Symbolic-Neural Learning (SNL 2024) @ National Museum of Emerging Science and Innovation (Miraikan), Tokyo, Japan.
 - **[Jan. 2024]** Our [paper](https://drive.google.com/file/d/1OHINx0XsqTKS-rHOJCTqdY8Cz664Beez/view), which investigates the application of Shannon entropy in assessing students' abstraction levels to optimize students' learning process, has been accepted in the **IEEE Transactions on Education (ToE)**.
 - **[Nov. 2023]** [SABM](https://arxiv.org/abs/2311.06330): We developed a computer simulation framework that incorporates LLMs into agent-based modeling. We released the [slides](https://docs.google.com/presentation/d/1GqLjlsjfaN-sbNvLENkAnx8OMlSgeUcz/edit?usp=sharing&ouid=110669723869294635935&rtpof=true&sd=true) and [source codes](https://github.com/Roihn/SABM).
 
