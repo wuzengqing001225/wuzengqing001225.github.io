@@ -1,5 +1,13 @@
 main:
 
+  - title: "The Hidden Strength of Disagreement: Unraveling the Consensus-Diversity Tradeoff in Adaptive Multi-Agent Systems"
+    authors: <strong>Zengqing Wu*</strong>, Takayuki Ito*
+    conference_short: EMNLP
+    conference: The 2025 Conference on Empirical Methods in Natural Language Processing.
+    pdf: https://arxiv.org/pdf/2502.16565
+    code: https://github.com/wuzengqing001225/ConsensusDiversityTradeoffMAS
+    image: ./assets/img/Paper_Cover/2025_02_ConsensusDiversityTradeoff.png
+
   - title: "Shall We Team Up: Exploring Spontaneous Cooperation of Competing LLM Agents"
     authors: <strong>Zengqing Wu</strong>, Run Peng, Shuyuan Zheng, Qianying Liu, Xu Han, Brian Inhyuk Kwon, Makoto Onizuka, Shaojie Tang, Chuan Xiao*
     conference_short: EMNLP
