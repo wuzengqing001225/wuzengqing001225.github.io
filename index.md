@@ -16,7 +16,7 @@ Zengqing Wu is a researcher at The University of Osaka under the supervision of 
 
 ## News
 
-- **[Oct. 2025]** Gave an oral presentation at [7th Joint Korea-Japan Workshop on Management of Data](https://joohyung00.github.io/kjmd2025/) (KJMD 2025) @ Busan, South Korea.
+- **[Oct. 2025]** Gave an oral presentation entitled "Some Initial Attempts and Insights on LLM-Based Social Simulations" at [7th Joint Korea-Japan Workshop on Management of Data](https://joohyung00.github.io/kjmd2025/) (KJMD 2025) @ Busan, South Korea.
 - **[Oct. 2025]** Presented a poster online at the 2025 Michigan AI Symposium.
 - **[Aug. 2025]** [The Hidden Strength of Disagreement](https://arxiv.org/abs/2502.16565): We discovered that implicit consensus mechanisms can outperform explicit coordination in dynamic environments requiring long-horizon adaptability, where preserving agent diversity enhances exploration and robustness. Our paper is to appear at **EMNLP 2025 (Main)** @ Suzhou, China. [[Code]](https://github.com/wuzengqing001225/ConsensusDiversityTradeoffMAS)
 - **[Jun. 2025]** We argue that LLM-based social simulations need clear boundaries to meaningfully contribute to social science research in our [position paper](https://arxiv.org/abs/2506.19806).
