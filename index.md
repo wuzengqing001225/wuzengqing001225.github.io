@@ -34,9 +34,9 @@ Zengqing Wu is a researcher at The University of Osaka under the supervision of 
 <!-- A complete list of research papers is available at: [Publications](./assets/files/Publication_List_Zengqing_Wu.pdf) -->
 
 ## Education
-- M.Eng. in Informatics, Kyoto University, 2025<br/>
+- Master of Informatics, Kyoto University, 2025<br/>
   Supervised by Prof. [Takayuki Ito](https://researchmap.jp/takayuki.ito)
-- B.A. in Human Sciences, Osaka University, 2023<br/>
+- Bachelor of Human Sciences, Osaka University, 2023<br/>
   Supervised by Prof. [Christian Etzrodt](https://researchmap.jp/7000013493?lang=en) and Prof. [Chuan Xiao](https://sites.google.com/site/chuanxiao1983/home)
 
 {% include_relative _includes/awards.md %}
