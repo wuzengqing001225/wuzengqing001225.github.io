@@ -1,5 +1,6 @@
 ## Awards
 ### Personal Awards
+- 2026 BOOST (Broadening Opportunities for Outstanding young researchers and doctoral students in STrategic areas) / 国家戦略分野の若手研究者及び博士後期課程学生の育成事業（BOOST）次世代AI人材育成プログラム
 - 2024 NEC Corporation Award, DEIM 2024 / 第22回日本データベース学会年次大会スポンサー賞 日本電気株式会社賞<br/>Supervised by Prof. [Chuan Xiao](https://researchmap.jp/chuanx)
 - 2022 Teraura Sayoko Scholarship / 寺浦さよ子記念奨学会奨学金
 - 2020 Meritorious in Mathematical Contest in Modeling (MCM)<br/>Supervised by Prof. [Koichi Fukase](https://researchmap.jp/read0076573)
