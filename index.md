@@ -28,6 +28,7 @@ Zengqing Wu is a researcher at The University of Osaka under the supervision of 
 - **[Sep. 2024]** [LLMob](https://arxiv.org/abs/2402.14744): As a joint work with the University of Tokyo, we developed an LLM agent framework for the generation of personal activity trajectories. This work will appear at **NeurIPS 2024**. [[Code]](https://github.com/Wangjw6/LLMob/)
 - **[Jul. 2024]** Presented a poster online at the ICML 2024 Workshop Agentic Markets (AMW @ ICML 2024).
 - **[Jun. 2024]** Presented a poster at the Eighth International Workshop on Symbolic-Neural Learning (SNL 2024) @ National Museum of Emerging Science and Innovation (Miraikan), Tokyo, Japan.
+- **[Mar. 2024]** Our work [SABM：大規模言語モデルに基づくエージェントベース実世界シミュレーション](https://arxiv.org/abs/2311.06330) received the NEC Corporation Award at [DEIM 2024](https://confit.atlas.jp/guide/event/deim2024/static/awards).
 - **[Jan. 2024]** Our [paper](https://drive.google.com/file/d/1OHINx0XsqTKS-rHOJCTqdY8Cz664Beez/view), which investigates the application of Shannon entropy in assessing students' abstraction levels to optimize students' learning process, has been accepted in the **IEEE Transactions on Education (ToE)**.
 - **[Nov. 2023]** [SABM](https://arxiv.org/abs/2311.06330): We developed a computer simulation framework that incorporates LLMs into agent-based modeling. [[Slides]](https://docs.google.com/presentation/d/1GqLjlsjfaN-sbNvLENkAnx8OMlSgeUcz/edit?usp=sharing&ouid=110669723869294635935&rtpof=true&sd=true) [[Code]](https://github.com/Roihn/SABM)
 
