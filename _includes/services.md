@@ -1,5 +1,10 @@
 ## Services
 
+<h4 style="margin:0 10px 0;">Professional Activities</h4>
+<ul style="margin:0 0 5px;">
+  <li>DEIM 2026 Junior Commentator / ジュニアコメンテータ</li>
+</ul>
+
 <h4 style="margin:0 10px 0;">International Conference</h4>
 
 <ul style="margin:0 0 5px;">
