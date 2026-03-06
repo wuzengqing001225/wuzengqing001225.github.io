@@ -16,6 +16,7 @@ Zengqing Wu is a researcher at The University of Osaka under the supervision of 
 
 ## News
 
+- **[Mar. 2026]** Served as a Junior Commentator at [DEIM 2026 (AIの社会応用)](https://pub.confit.atlas.jp/ja/event/deim2026/session/1RoomL06-10).
 - **[Feb. 2026]** Accepted by BOOST (Broadening Opportunities for Outstanding young researchers and doctoral students in STrategic areas), The University of Osaka.
 - **[Oct. 2025]** Gave an oral presentation entitled "Some Initial Attempts and Insights on LLM-Based Social Simulations" at [7th Joint Korea-Japan Workshop on Management of Data](https://joohyung00.github.io/kjmd2025/) (KJMD 2025) @ Busan, South Korea.
 - **[Oct. 2025]** Presented a poster online at the 2025 Michigan AI Symposium.
