@@ -11,6 +11,8 @@
 
 ### Supervised Student Awards
 - 2021 Outstanding in the International Mathematical Modeling Challenge (IMMC) with co-supervisor Mr. Linfeng Dong
+- 2026 3 * Finalist in the International Mathematical Modeling Challenge (IMMC) with co-supervisor Mr. Linfeng Dong
 - 2025 Finalist in the International Mathematical Modeling Challenge (IMMC) with co-supervisor Mr. Linfeng Dong
+- 2026 2 * Meritorious in the International Mathematical Modeling Challenge (IMMC) with co-supervisor Mr. Linfeng Dong
 - 2022 Meritorious in High School Mathematical Contest in Modeling (HiMCM)
 - 2024 Meritorious in the International Mathematical Modeling Challenge (IMMC) with co-supervisor Mr. Linfeng Dong
