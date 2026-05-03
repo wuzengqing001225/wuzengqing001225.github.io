@@ -1,7 +1,7 @@
 main:
 
   - title: "LLM-Based Social Simulations Require a Boundary"
-    authors: <strong>Zengqing Wu*</strong>, Takayuki Ito*
+    authors: <strong>Zengqing Wu*</strong>, Run Peng, Takayuki Ito, Makoto Onizuka, Chuan Xiao*
     conference_short: ICML
     conference: Forty-Third International Conference on Machine Learning (Position Paper Track)
     pdf: https://arxiv.org/pdf/2506.19806
