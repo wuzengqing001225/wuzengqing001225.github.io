@@ -1,5 +1,12 @@
 main:
 
+  - title: "LLM-Based Social Simulations Require a Boundary"
+    authors: <strong>Zengqing Wu*</strong>, Takayuki Ito*
+    conference_short: ICML
+    conference: Forty-Third International Conference on Machine Learning (Position Paper Track)
+    pdf: https://arxiv.org/pdf/2506.19806
+    image: ./assets/img/Paper_Cover/2026_05_Boundary.png
+
   - title: "The Hidden Strength of Disagreement: Unraveling the Consensus-Diversity Tradeoff in Adaptive Multi-Agent Systems"
     authors: <strong>Zengqing Wu*</strong>, Takayuki Ito*
     conference_short: EMNLP
