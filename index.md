@@ -16,7 +16,7 @@ Zengqing Wu is a researcher at The University of Osaka under the supervision of 
 
 ## News
 
-- **[Jun. 2026]** We propose a methodology based on [emergent language](https://arxiv.org/abs/2606.06380) for studying conscious AI. [code](https://github.com/wuzengqing001225/ConsciousAI_Indexicality/)
+- **[Jun. 2026]** We propose a methodology based on [emergent language](https://arxiv.org/abs/2606.06380) for studying conscious AI. [[code]](https://github.com/wuzengqing001225/ConsciousAI_Indexicality/)
 - **[Jun. 2026]** [Not All Flips Are Conformity](https://arxiv.org/abs/2606.00820): We find that answer flips in multi-agent LLM debate conflate self-reflection instability with peer influence; after decomposition, strict conformity is smaller, predominantly harmful, and partially predictable.
 - **[May. 2025]** We argue that LLM-based social simulations need clear boundaries to meaningfully contribute to social science research in our [position paper](https://arxiv.org/abs/2506.19806). Our paper is to appear at **ICML 2026** @ Seoul, South Korea.
 - **[Mar. 2026]** Served as a Junior Commentator at [DEIM 2026 (AIの社会応用)](https://pub.confit.atlas.jp/ja/event/deim2026/session/1RoomL06-10).
