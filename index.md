@@ -34,7 +34,7 @@ Zengqing Wu is a researcher at The University of Osaka under the supervision of 
 - **[Mar. 2024]** Our work [SABM：大規模言語モデルに基づくエージェントベース実世界シミュレーション](https://arxiv.org/abs/2311.06330) received the NEC Corporation Award at [DEIM 2024](https://confit.atlas.jp/guide/event/deim2024/static/awards).
 - **[Jan. 2024]** Our [paper](https://drive.google.com/file/d/1OHINx0XsqTKS-rHOJCTqdY8Cz664Beez/view), which investigates the application of Shannon entropy in assessing students' abstraction levels to optimize students' learning process, has been accepted in the **IEEE Transactions on Education (ToE)**.
 - **[Nov. 2023]** [SABM](https://arxiv.org/abs/2311.06330): We developed a computer simulation framework that incorporates LLMs into agent-based modeling. [[Slides]](https://docs.google.com/presentation/d/1GqLjlsjfaN-sbNvLENkAnx8OMlSgeUcz/edit?usp=sharing&ouid=110669723869294635935&rtpof=true&sd=true) [[Code]](https://github.com/Roihn/SABM)
-- **[Sep. 2023]** Dissertation: [Bridging the Gap: Utilizing Knowledge Graphs to Uncover Inconsistencies in Social Science Theories](https://github.com/wuzengqing001225/wuzengqing001225.github.io/blob/3afa3d5d7fe5ad6c5a30d79a84fcfeea569e44e4/assets/files/Bridging%20the%20Gap%20-%20Utilizing%20Knowledge%20Graphs%20to%20Uncover%20Inconsistencies%20in%20Social%20Science%20Theories.pdf).
+- **[Sep. 2023]** Dissertation: [Bridging the Gap: Utilizing Knowledge Graphs to Uncover Inconsistencies in Social Science Theories](https://wuzengqing001225.github.io/assets/files/Bachelor_Thesis_Zengqing_Wu_2023.pdf).
 
 {% include_relative _includes/publications.md %}
 
