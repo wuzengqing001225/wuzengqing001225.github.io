@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', function () {
     if (target === 'publications') {
       tabBiography.style.display = 'none';
       tabPublications.style.display = 'block';
-      initPubPagination();
       window.scrollTo({ top: 0, behavior: 'smooth' });
       return;
     }
@@ -36,7 +35,6 @@ document.addEventListener('DOMContentLoaded', function () {
     if (sectionId) {
       var el = document.getElementById(sectionId);
       if (!el) {
-        var heading = tabBiography.querySelector('h2#' + sectionId + ', h2, h3');
         var allH2 = tabBiography.querySelectorAll('h2, h3');
         for (var i = 0; i < allH2.length; i++) {
           if (allH2[i].id === sectionId || allH2[i].textContent.trim().toLowerCase().indexOf(target) !== -1) {
@@ -92,41 +90,41 @@ document.addEventListener('DOMContentLoaded', function () {
     showNewsPage(1);
   }
 
-  // --- Publications (full list) Pagination ---
-  var PUB_PER_PAGE = 3;
-  var pubListEl = document.getElementById('pub-full-list');
-  var pubPaginationEl = document.getElementById('pub-pagination');
-  var pubInited = false;
+  // --- Highlights Pagination ---
+  var HIGHLIGHTS_PER_PAGE = 3;
+  var highlightsList = document.getElementById('highlights-list');
+  var highlightsPaginationEl = document.getElementById('highlights-pagination');
 
-  function initPubPagination() {
-    if (pubInited) return;
-    pubInited = true;
-    if (!pubListEl || !pubPaginationEl) return;
+  if (highlightsList && highlightsPaginationEl) {
+    var highlightItems = highlightsList.querySelectorAll('.highlight-item');
+    var totalHighlightsPages = Math.ceil(highlightItems.length / HIGHLIGHTS_PER_PAGE);
 
-    var pubItems = pubListEl.querySelectorAll('.pub-full-item');
-    var totalPubPages = Math.ceil(pubItems.length / PUB_PER_PAGE);
-
-    function showPubPage(page) {
-      pubItems.forEach(function (item, i) {
-        item.style.display = (i >= (page - 1) * PUB_PER_PAGE && i < page * PUB_PER_PAGE) ? '' : 'none';
+    function showHighlightsPage(page) {
+      highlightItems.forEach(function (item, i) {
+        var br = item.nextElementSibling;
+        var visible = (i >= (page - 1) * HIGHLIGHTS_PER_PAGE && i < page * HIGHLIGHTS_PER_PAGE);
+        item.style.display = visible ? '' : 'none';
+        if (br && br.tagName === 'BR') {
+          br.style.display = visible ? '' : 'none';
+        }
       });
-      renderPubPagination(page);
+      renderHighlightsPagination(page);
     }
 
-    function renderPubPagination(current) {
-      if (totalPubPages <= 1) { pubPaginationEl.innerHTML = ''; return; }
+    function renderHighlightsPagination(current) {
+      if (totalHighlightsPages <= 1) { highlightsPaginationEl.innerHTML = ''; return; }
       var html = '';
-      for (var i = 1; i <= totalPubPages; i++) {
+      for (var i = 1; i <= totalHighlightsPages; i++) {
         html += '<a class="page-btn' + (i === current ? ' active' : '') + '" data-page="' + i + '">' + i + '</a>';
       }
-      pubPaginationEl.innerHTML = html;
-      pubPaginationEl.querySelectorAll('.page-btn').forEach(function (btn) {
+      highlightsPaginationEl.innerHTML = html;
+      highlightsPaginationEl.querySelectorAll('.page-btn').forEach(function (btn) {
         btn.addEventListener('click', function () {
-          showPubPage(parseInt(this.getAttribute('data-page')));
+          showHighlightsPage(parseInt(this.getAttribute('data-page')));
         });
       });
     }
 
-    showPubPage(1);
+    showHighlightsPage(1);
   }
 });

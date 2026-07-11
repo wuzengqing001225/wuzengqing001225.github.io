@@ -1,0 +1,52 @@
+personal:
+  - year: 2026
+    title: "BOOST (Broadening Opportunities for Outstanding young researchers and doctoral students in STrategic areas) / 国家戦略分野の若手研究者及び博士後期課程学生の育成事業（BOOST）次世代AI人材育成プログラム"
+
+  - year: 2024
+    title: "NEC Corporation Award, DEIM 2024 / 第22回日本データベース学会年次大会スポンサー賞 日本電気株式会社賞"
+    supervisor: "Chuan Xiao"
+    supervisor_url: "https://researchmap.jp/chuanx"
+
+  - year: 2022
+    title: "Teraura Sayoko Scholarship / 寺浦さよ子記念奨学会奨学金"
+
+  - year: 2020
+    title: "Meritorious in Mathematical Contest in Modeling (MCM)"
+    supervisor: "Koichi Fukase"
+    supervisor_url: "https://researchmap.jp/read0076573"
+
+  - year: 2018
+    title: "Top 10 Outstanding Youth in Shanghai Changning District / 上海市长宁区第四届\"长宁好青年\""
+
+  - year: 2018
+    title: "Finalist in High School Mathematical Contest in Modeling (HiMCM)"
+
+  - year: 2015
+    title: "First Prize of National Olympiad in Informatics in Provinces, Shanghai, China (NOIP)"
+
+  - year: 2013
+    title: "First Prize of Japan Sansu Olympic / 日本算数オリンピック"
+
+supervised:
+  - year: 2021
+    title: "Outstanding in the International Mathematical Modeling Challenge (IMMC)"
+    co_supervisor: "Mr. Linfeng Dong"
+
+  - year: 2026
+    title: "3 * Finalist in the International Mathematical Modeling Challenge (IMMC)"
+    co_supervisor: "Mr. Linfeng Dong"
+
+  - year: 2025
+    title: "Finalist in the International Mathematical Modeling Challenge (IMMC)"
+    co_supervisor: "Mr. Linfeng Dong"
+
+  - year: 2026
+    title: "2 * Meritorious in the International Mathematical Modeling Challenge (IMMC)"
+    co_supervisor: "Mr. Linfeng Dong"
+
+  - year: 2022
+    title: "Meritorious in High School Mathematical Contest in Modeling (HiMCM)"
+
+  - year: 2024
+    title: "Meritorious in the International Mathematical Modeling Challenge (IMMC)"
+    co_supervisor: "Mr. Linfeng Dong"

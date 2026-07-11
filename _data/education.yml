@@ -1,0 +1,15 @@
+- degree: "Master of Informatics"
+  school: "Kyoto University"
+  year: 2025
+  supervisors:
+    - name: "Takayuki Ito"
+      url: "https://researchmap.jp/takayuki.ito"
+
+- degree: "Bachelor of Human Sciences"
+  school: "Osaka University"
+  year: 2023
+  supervisors:
+    - name: "Christian Etzrodt"
+      url: "https://researchmap.jp/7000013493?lang=en"
+    - name: "Chuan Xiao"
+      url: "https://sites.google.com/site/chuanxiao1983/home"
