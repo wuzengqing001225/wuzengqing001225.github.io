@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
   var tabPublications = document.getElementById('tab-publications');
 
   var sectionTargetMap = {
-    biography: 'biography',
     news: 'section-news',
     highlights: 'section-highlights',
     education: 'section-education',

@@ -96,7 +96,6 @@
       <section>
 
       <nav class="section-nav">
-        <a class="nav-item active" data-target="biography" href="javascript:void(0)">Biography</a>
         <a class="nav-item" data-target="news" href="javascript:void(0)">News</a>
         <a class="nav-item" data-target="highlights" href="javascript:void(0)">Highlights</a>
         <a class="nav-item" data-target="publications" href="javascript:void(0)">Publications</a>
@@ -119,38 +118,12 @@
         <div id="pub-groups"></div>
 
         <!-- Talks section -->
-        <h2 style="margin-top: 2em;">Talks &amp; Presentations</h2>
+        <h2 class="talks-heading">Talks</h2>
         <div id="talks-list"></div>
 
         <!-- Data injected by Jekyll -->
         <script id="pub-data" type="application/json">
-          {
-            "publications": [
-              {% for p in site.data.publication.publications %}
-              {
-                "title": {{ p.title | jsonify }},
-                "authors": {{ p.authors | jsonify }},
-                "venue": {{ p.venue | default: "" | jsonify }},
-                "date": {{ p.date | jsonify }},
-                "corresponding_author": {{ p.corresponding_author | default: "" | jsonify }},
-                "type": {{ p.type | jsonify }},
-                "link": {{ p.link | default: "" | jsonify }},
-                "tag": {{ p.tag | jsonify }}
-              }{% unless forloop.last %},{% endunless %}
-              {% endfor %}
-            ],
-            "presentations": [
-              {% for t in site.data.publication.presentations %}
-              {
-                "title": {{ t.title | jsonify }},
-                "venue": {{ t.venue | default: "" | jsonify }},
-                "place": {{ t.place | default: "" | jsonify }},
-                "date": {{ t.date | jsonify }},
-                "type": {{ t.type | jsonify }}
-              }{% unless forloop.last %},{% endunless %}
-              {% endfor %}
-            ]
-          }
+          {"publications":[{% for p in site.data.publication.publications %}{"title":{{ p.title | jsonify }},"authors":{{ p.authors | jsonify }},"venue":{{ p.venue | default: "" | jsonify }},"date":{{ p.date | jsonify }},"corresponding_author":{{ p.corresponding_author | default: "" | jsonify }},"type":{{ p.type | jsonify }},"link":{{ p.link | default: "" | jsonify }},"tag":{{ p.tag | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}],"presentations":[{% for t in site.data.publication.presentations %}{"title":{{ t.title | jsonify }},"venue":{{ t.venue | default: "" | jsonify }},"place":{{ t.place | default: "" | jsonify }},"date":{{ t.date | jsonify }},"type":{{ t.type | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]}
         </script>
 
       </div>
