@@ -5,7 +5,7 @@
   <h2>Publications</h2>
   <p class="pub-note"><em>Underline indicates corresponding author.</em></p>
 
-  {% comment %} Collect unique tags with counts {% endcomment %}
+  {% comment %} Collect unique tags {% endcomment %}
   {% assign all_tags = "" %}
   {% for p in site.data.publication.publications %}
     {% for t in p.tag %}
@@ -15,15 +15,27 @@
       {% endunless %}
     {% endfor %}
   {% endfor %}
-  {% assign tag_list = all_tags | split: "||" | sort %}
+  {% assign tag_list = all_tags | split: "||" %}
+
+  {% comment %} Build sortable keys: (1000+count)::tag::count for descending count sort {% endcomment %}
+  {% assign sort_blob = "" %}
+  {% for t in tag_list %}
+    {% assign count = 0 %}
+    {% for p in site.data.publication.publications %}
+      {% if p.tag contains t %}{% assign count = count | plus: 1 %}{% endif %}
+    {% endfor %}
+    {% assign sort_key = count | plus: 1000 %}
+    {% if sort_blob != "" %}{% assign sort_blob = sort_blob | append: "||" %}{% endif %}
+    {% assign sort_blob = sort_blob | append: sort_key | append: "::" | append: t | append: "::" | append: count %}
+  {% endfor %}
+  {% assign sorted_tags = sort_blob | split: "||" | sort | reverse %}
 
   <div id="pub-tag-bar" class="tag-bar">
     <a class="pub-tag active" data-tag="__all__" href="javascript:void(0)">All <span class="tag-count">{{ site.data.publication.publications.size }}</span></a>
-    {% for t in tag_list %}
-      {% assign count = 0 %}
-      {% for p in site.data.publication.publications %}
-        {% if p.tag contains t %}{% assign count = count | plus: 1 %}{% endif %}
-      {% endfor %}
+    {% for entry in sorted_tags %}
+      {% assign parts = entry | split: "::" %}
+      {% assign t = parts[1] %}
+      {% assign count = parts[2] %}
       <a class="pub-tag" data-tag="{{ t }}" href="javascript:void(0)">{{ t }} <span class="tag-count">{{ count }}</span></a>
     {% endfor %}
   </div>
@@ -57,7 +69,7 @@
             <div class="pub-meta">
               {% if p.venue %}<em>{{ p.venue }}</em>{% endif %}{% if p.venue and p.date %}, {% endif %}{% if p.date %}{{ p.date }}{% endif %}
               {% if p.tag %}
-                {% for t in p.tag %}<span class="pub-item-tag">{{ t }}</span>{% endfor %}
+                <span class="pub-item-tags">{% for t in p.tag %}<span class="pub-item-tag">{{ t }}</span>{% endfor %}</span>
               {% endif %}
             </div>
           </div>

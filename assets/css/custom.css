@@ -178,3 +178,187 @@
 @media print {
   .back-to-top { display: none !important; }
 }
+
+/* ---- Publications page typography & tags ---- */
+#tab-publications {
+  font-size: 15.5px;
+  line-height: 1.55;
+}
+
+#tab-publications > h2,
+#tab-publications .talks-heading {
+  font-size: 1.7rem;
+}
+
+#tab-publications .pub-note {
+  font-size: 13.5px;
+  color: #888;
+  margin: -6px 0 14px 0;
+}
+
+#tab-publications .tag-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 22px;
+}
+
+#tab-publications .pub-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 11px;
+  border: 1px solid #c8d0dc;
+  border-radius: 3px;
+  font-size: 13px;
+  color: #043361;
+  background: #f7f8fa;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+#tab-publications .pub-tag:hover {
+  background: #eef2f6;
+  border-color: #043361;
+  color: #043361;
+}
+
+#tab-publications .pub-tag.active {
+  background: #043361;
+  border-color: #043361;
+  color: #fff;
+}
+
+#tab-publications .pub-tag .tag-count {
+  font-size: 11.5px;
+  opacity: 0.75;
+}
+
+#tab-publications .pub-group-title {
+  font-size: 16.5px;
+  font-weight: 600;
+  color: #043361;
+  margin: 0 0 12px 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+#tab-publications .pub-item {
+  margin-bottom: 16px;
+}
+
+#tab-publications .pub-title {
+  font-weight: 500;
+  font-size: 15.5px;
+  line-height: 1.4;
+}
+
+#tab-publications .pub-title a {
+  color: #043361;
+  text-decoration: none;
+}
+
+#tab-publications .pub-title a:hover {
+  text-decoration: underline;
+}
+
+#tab-publications .pub-authors {
+  font-size: 14.5px;
+  color: #444;
+  margin-top: 3px;
+}
+
+#tab-publications .pub-meta {
+  font-size: 13.5px;
+  color: #666;
+  margin-top: 3px;
+  line-height: 1.7;
+}
+
+#tab-publications .pub-item-tags {
+  display: inline;
+}
+
+#tab-publications .pub-item-tag {
+  display: inline-block;
+  margin: 0 0 0 5px;
+  padding: 1px 7px;
+  border: 1px solid #d5dae0;
+  border-radius: 2px;
+  font-size: 11.5px;
+  font-style: normal;
+  color: #4a5560;
+  background: #f3f4f6;
+  vertical-align: middle;
+  white-space: nowrap;
+  line-height: 1.4;
+}
+
+#tab-publications .author-corresponding,
+#tab-publications .author-corresponding strong {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+#tab-publications .talk-item {
+  font-size: 15px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+#tab-publications .talk-meta {
+  font-size: 13.5px;
+  color: #666;
+}
+
+#tab-publications .talk-type {
+  display: inline-block;
+  font-size: 11.5px;
+  font-weight: 600;
+  padding: 1px 7px;
+  border-radius: 2px;
+  margin-right: 4px;
+  vertical-align: middle;
+  background: #eef2f6;
+  color: #043361;
+  border: 1px solid #d5dae0;
+}
+
+@media (prefers-color-scheme: dark) {
+  #tab-publications .pub-note { color: #888; }
+
+  #tab-publications .pub-tag {
+    background: #2a2b35;
+    border-color: #3a3b45;
+    color: rgb(62, 183, 240);
+  }
+  #tab-publications .pub-tag:hover {
+    background: #35364a;
+    border-color: rgb(62, 183, 240);
+  }
+  #tab-publications .pub-tag.active {
+    background: rgb(62, 183, 240);
+    border-color: rgb(62, 183, 240);
+    color: #20212b;
+  }
+  #tab-publications .pub-group-title {
+    color: rgb(62, 183, 240);
+    border-bottom-color: #3a3b45;
+  }
+  #tab-publications .pub-title a { color: rgb(62, 183, 240); }
+  #tab-publications .pub-authors { color: #b0b4c0; }
+  #tab-publications .pub-meta { color: #888; }
+  #tab-publications .pub-item-tag {
+    background: #2a2b35;
+    border-color: #3a3b45;
+    color: #a0a8b4;
+  }
+  #tab-publications .talk-type {
+    background: #2a2b35;
+    border-color: #3a3b45;
+    color: rgb(62, 183, 240);
+  }
+  #tab-publications .talk-meta { color: #888; }
+}
+
