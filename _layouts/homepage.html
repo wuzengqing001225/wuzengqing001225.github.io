@@ -109,24 +109,7 @@
         {{ content }}
       </div>
 
-      <div id="tab-publications" class="tab-content" style="display:none;">
-
-        <!-- Publications section -->
-        <h2>Publications</h2>
-        <p class="pub-note"><em>Underline indicates corresponding author.</em></p>
-        <div id="pub-tag-bar"></div>
-        <div id="pub-groups"></div>
-
-        <!-- Talks section -->
-        <h2 class="talks-heading">Talks</h2>
-        <div id="talks-list"></div>
-
-        <!-- Data injected by Jekyll -->
-        <script id="pub-data" type="application/json">
-          {"publications":[{% for p in site.data.publication.publications %}{"title":{{ p.title | jsonify }},"authors":{{ p.authors | jsonify }},"venue":{{ p.venue | default: "" | jsonify }},"date":{{ p.date | jsonify }},"corresponding_author":{{ p.corresponding_author | default: "" | jsonify }},"type":{{ p.type | jsonify }},"link":{{ p.link | default: "" | jsonify }},"tag":{{ p.tag | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}],"presentations":[{% for t in site.data.publication.presentations %}{"title":{{ t.title | jsonify }},"venue":{{ t.venue | default: "" | jsonify }},"place":{{ t.place | default: "" | jsonify }},"date":{{ t.date | jsonify }},"type":{{ t.type | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]}
-        </script>
-
-      </div>
+      {% include publications_tab.md %}
 
       <br>
 
@@ -151,5 +134,6 @@
     </script>
     {% endif %}
     <script src="./assets/js/tabs.js"></script>
+    <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top" title="Back to top">↑</button>
   </body>
 </html>

@@ -1,6 +1,6 @@
 <h2 id="section-highlights" style="margin: 2px 0px -15px;">Highlights</h2>
 
-<div class="publications">
+<div class="publications highlights-block">
 <ol class="bibliography" id="highlights-list">
 {% for link in site.data.highlights.main %}<li class="highlight-item">
 <div class="pub-row">
@@ -22,7 +22,7 @@
     </div>
   </div>
 </div>
-</li><br>
-{% endfor %}</ol>
+</li>{% endfor %}
+</ol>
 </div>
 <div class="pagination" id="highlights-pagination"></div>

@@ -662,40 +662,75 @@ footer {
 }
 
 /* Pagination */
+.paginated-list ul {
+  margin-bottom: 0;
+}
+
 .pagination {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
-  margin: 0 0 36px 0;
+  align-items: center;
+  gap: 6px;
+  margin: 8px 0 28px 0;
+  padding: 0;
+  list-style: none;
+}
+
+#news-pagination {
+  /* Align with bullet list text indent (~1.25em typical marker gutter) */
+  padding-left: 1.25em;
+  margin-top: 6px;
+}
+
+#highlights-pagination {
+  margin-top: 8px;
+  margin-bottom: 28px;
   padding-left: 0;
 }
 
-/* Highlights pagination sits right under the pub list with tighter top gap */
-#highlights-pagination {
-  margin-top: 4px;
+/* Override bibliography min-height creating huge empty gaps when paginating */
+.highlights-block {
+  margin-top: 0.6rem !important;
+}
+
+.highlights-block ol.bibliography {
+  margin-bottom: 0;
+}
+
+.highlights-block ol.bibliography li.highlight-item {
+  min-height: 0;
+  margin-bottom: 1rem;
+}
+
+.highlights-block ol.bibliography li.highlight-item[style*="display: none"] {
+  display: none !important;
+  margin: 0 !important;
+  min-height: 0 !important;
 }
 
 .pagination .page-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 28px;
-  height: 28px;
-  padding: 0 8px;
+  min-width: 30px;
+  height: 30px;
+  padding: 0 9px;
   border: 1.5px solid #c8d0dc;
   border-radius: 5px;
   background: #fff;
   color: #043361;
-  font-size: 13px;
+  font-size: 13.5px;
   font-weight: 500;
+  line-height: 1;
   cursor: pointer;
   text-decoration: none;
-  transition: background 0.18s, border-color 0.18s, box-shadow 0.18s;
+  transition: background 0.18s, border-color 0.18s, box-shadow 0.18s, transform 0.15s;
 }
 
 .pagination .page-btn:hover {
   background: #edf2f8;
   border-color: #043361;
+  transform: translateY(-1px);
 }
 
 .pagination .page-btn.active {
@@ -704,6 +739,7 @@ footer {
   border-color: #043361;
   box-shadow: 0 1px 5px rgba(4, 51, 97, 0.2);
   cursor: default;
+  transform: none;
 }
 
 /* Dark mode overrides */
@@ -951,4 +987,51 @@ footer {
     padding: 6px 7px;
     font-size: 12px;
   }
+}
+
+/* Back to top */
+.back-to-top {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  z-index: 1000;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background: #043361;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(4, 51, 97, 0.28);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition: opacity 0.2s, visibility 0.2s, transform 0.2s, background 0.2s;
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  background: #065a9e;
+}
+
+@media (prefers-color-scheme: dark) {
+  .back-to-top {
+    background: rgb(62, 183, 240);
+    color: #20212b;
+    box-shadow: 0 2px 10px rgba(62, 183, 240, 0.3);
+  }
+  .back-to-top:hover {
+    background: #7ecbf5;
+  }
+}
+
+@media print {
+  .back-to-top { display: none; }
 }
