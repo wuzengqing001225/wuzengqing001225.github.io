@@ -55,9 +55,9 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 2px;
-  margin: 10px 0 32px 0;
-  padding: 8px 0 0 0;
-  border-top: 1px solid #e8e8e8;
+  margin: 4px 0 32px 0;
+  padding: 0;
+  border-top: none;
   list-style: none;
 }
 
@@ -148,10 +148,6 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .pagination {
-    border-top-color: #3a3b45;
-  }
-
   .pagination .page-btn {
     color: #8a93a3;
   }
