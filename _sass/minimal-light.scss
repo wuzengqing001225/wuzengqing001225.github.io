@@ -598,9 +598,11 @@ footer {
 
 /* Section Navigation Bar */
 .section-nav {
-  display: flex;
-  flex-wrap: wrap;
+  display: inline-flex;
+  flex-wrap: nowrap;
   gap: 0;
+  width: auto;
+  max-width: 100%;
   background: transparent;
   padding: 0;
   margin: -1.5em 0 1.8em 0;

@@ -3,15 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
   var tabBiography = document.getElementById('tab-biography');
   var tabPublications = document.getElementById('tab-publications');
 
-  var sectionTargetMap = {
-    news: 'section-news',
-    highlights: 'section-highlights',
-    education: 'section-education',
-    awards: 'section-awards',
-    services: 'section-services',
-    funding: 'section-funding'
-  };
-
   function setActiveNav(target) {
     navItems.forEach(function (item) {
       item.classList.toggle('active', item.getAttribute('data-target') === target);
@@ -29,34 +20,10 @@ document.addEventListener('DOMContentLoaded', function () {
       return;
     }
 
+    // homepage
     tabBiography.style.display = 'block';
     tabPublications.style.display = 'none';
-
-    var sectionId = sectionTargetMap[target];
-    // Wait a frame so layout is ready after showing biography tab
-    requestAnimationFrame(function () {
-      setTimeout(function () {
-        var el = null;
-        if (sectionId) {
-          el = document.getElementById(sectionId)
-            || document.getElementById(sectionId + '-heading')
-            || tabBiography.querySelector('#' + sectionId);
-        }
-        if (!el && sectionId) {
-          var allH2 = tabBiography.querySelectorAll('h2, h3');
-          for (var i = 0; i < allH2.length; i++) {
-            var text = allH2[i].textContent.trim().toLowerCase();
-            if (allH2[i].id === sectionId || text.indexOf(target) !== -1 || text === 'funding' && target === 'funding') {
-              el = allH2[i];
-              break;
-            }
-          }
-        }
-        if (el) {
-          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-      }, 50);
-    });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   navItems.forEach(function (item) {
