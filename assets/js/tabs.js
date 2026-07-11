@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function () {
     setupPagination(
       Array.prototype.slice.call(newsContainer.querySelectorAll('ul > li')),
       newsPaginationEl,
-      10
+      8
     );
   }
 
