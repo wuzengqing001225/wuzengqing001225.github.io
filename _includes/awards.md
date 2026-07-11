@@ -1,3 +1,5 @@
+<div id="section-awards">
+
 ## Awards
 ### Personal Awards
 - 2026 BOOST (Broadening Opportunities for Outstanding young researchers and doctoral students in STrategic areas) / 国家戦略分野の若手研究者及び博士後期課程学生の育成事業（BOOST）次世代AI人材育成プログラム
@@ -16,3 +18,4 @@
 - 2026 2 * Meritorious in the International Mathematical Modeling Challenge (IMMC) with co-supervisor Mr. Linfeng Dong
 - 2022 Meritorious in High School Mathematical Contest in Modeling (HiMCM)
 - 2024 Meritorious in the International Mathematical Modeling Challenge (IMMC) with co-supervisor Mr. Linfeng Dong
+</div>
