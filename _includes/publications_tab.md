@@ -44,9 +44,22 @@
         <li class="pub-item" data-tags="{{ p.tag | join: '|' }}">
           <div class="pub-entry">
             <div class="pub-title">{% if p.link %}<a href="{{ p.link }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</div>
-{% comment %} Escape authors for HTML attributes {% endcomment %}
-            <div class="pub-authors" data-authors="{{ p.authors | escape }}" data-corresponding="{{ p.corresponding_author | default: '' | escape }}"></div>
-            <div class="pub-meta">{% if p.venue %}<em>{{ p.venue }}</em>{% endif %}{% if p.venue and p.date %}, {% endif %}{% if p.date %}{{ p.date }}{% endif %}</div>
+            <div class="pub-authors">
+              {% assign corr = p.corresponding_author | default: "" %}
+              {% assign me_is_corr = false %}
+              {% if corr contains "Wu, Z" %}{% assign me_is_corr = true %}{% endif %}
+              {% if me_is_corr %}
+                {{ p.authors | replace: "Wu, Z.", '<span class="author-corresponding"><strong>Wu, Z.</strong></span>' }}
+              {% else %}
+                {{ p.authors | replace: "Wu, Z.", '<strong>Wu, Z.</strong>' }}
+              {% endif %}
+            </div>
+            <div class="pub-meta">
+              {% if p.venue %}<em>{{ p.venue }}</em>{% endif %}{% if p.venue and p.date %}, {% endif %}{% if p.date %}{{ p.date }}{% endif %}
+              {% if p.tag %}
+                {% for t in p.tag %}<span class="pub-item-tag">{{ t }}</span>{% endfor %}
+              {% endif %}
+            </div>
           </div>
         </li>
       {% endfor %}

@@ -891,6 +891,20 @@ footer {
   margin-top: 1px;
 }
 
+.pub-item-tag {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 7px;
+  border: 1px solid #c8d0dc;
+  border-radius: 10px;
+  font-size: 11px;
+  color: #043361;
+  background: #f5f7fa;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.author-corresponding,
 .author-corresponding strong {
   text-decoration: underline;
   text-underline-offset: 2px;
@@ -964,6 +978,11 @@ footer {
   .pub-title a { color: rgb(62, 183, 240); }
   .pub-authors { color: #b0b4c0; }
   .pub-meta { color: #888; }
+  .pub-item-tag {
+    background: #2a2b35;
+    border-color: #3a3b45;
+    color: rgb(62, 183, 240);
+  }
   .talk-type { background: #2a2b35; color: rgb(62, 183, 240); }
   .talk-type-oral { background: #1a2e1a; color: #7ecf7e; }
   .talk-type-poster { background: #2a2b35; color: rgb(62, 183, 240); }

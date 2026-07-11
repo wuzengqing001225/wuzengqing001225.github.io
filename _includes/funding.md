@@ -1,4 +1,4 @@
-<div id="section-funding" style="margin-top: 2em;">
+<div id="section-funding">
 <h2 id="section-funding-heading">Funding</h2>
 {% if site.data.funding and site.data.funding.size > 0 %}
 <ul>

@@ -69,8 +69,10 @@ document.addEventListener('DOMContentLoaded', function () {
   function setupPagination(items, paginationEl, perPage) {
     if (!paginationEl || !items || items.length === 0) return;
     var totalPages = Math.ceil(items.length / perPage);
+    var currentPage = 1;
 
     function showPage(page) {
+      currentPage = page;
       items.forEach(function (item, i) {
         item.style.display = (i >= (page - 1) * perPage && i < page * perPage) ? '' : 'none';
       });
@@ -78,14 +80,21 @@ document.addEventListener('DOMContentLoaded', function () {
         paginationEl.innerHTML = '';
         return;
       }
+
       var html = '';
+      html += '<a class="page-btn page-nav' + (page <= 1 ? ' is-disabled' : '') + '" data-page="' + (page - 1) + '" aria-label="Previous">‹</a>';
       for (var i = 1; i <= totalPages; i++) {
+        if (i > 1) html += '<span class="page-sep">·</span>';
         html += '<a class="page-btn' + (i === page ? ' active' : '') + '" data-page="' + i + '">' + i + '</a>';
       }
+      html += '<a class="page-btn page-nav' + (page >= totalPages ? ' is-disabled' : '') + '" data-page="' + (page + 1) + '" aria-label="Next">›</a>';
       paginationEl.innerHTML = html;
+
       paginationEl.querySelectorAll('.page-btn').forEach(function (btn) {
         btn.addEventListener('click', function () {
-          showPage(parseInt(this.getAttribute('data-page'), 10));
+          if (btn.classList.contains('is-disabled')) return;
+          var next = parseInt(btn.getAttribute('data-page'), 10);
+          if (next >= 1 && next <= totalPages) showPage(next);
         });
       });
     }
@@ -116,62 +125,13 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   // =============================================
-  // --- Publications Tab ---
+  // --- Publications Tab (tag filter only) ---
   // =============================================
 
   var pubTabInited = false;
 
-  function escHtml(str) {
-    return String(str)
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;');
-  }
-
-  function formatAuthors(authorsStr, correspondingStr) {
-    var isMeCorresponding = /Wu,?\s*Z/i.test(correspondingStr || '');
-
-    var raw = (authorsStr || '')
-      .replace(/\s*&\s*/g, ', ')
-      .replace(/\s+and\s+/gi, ', ');
-    var parts = raw.split(', ');
-    var authors = [];
-
-    for (var i = 0; i < parts.length; i++) {
-      var p = parts[i].trim();
-      if (!p) continue;
-      if (/^\.\.\.$/.test(p)) {
-        authors.push('...');
-      } else if (i > 0 && /^[A-Za-z]{1,3}\.?$/.test(p) && authors.length > 0 && authors[authors.length - 1] !== '...') {
-        authors[authors.length - 1] = authors[authors.length - 1] + ', ' + p;
-      } else {
-        authors.push(p);
-      }
-    }
-
-    return authors.map(function (name) {
-      if (name === '...') return '...';
-      if (/Wu,?\s*Z/i.test(name)) {
-        var html = '<strong>' + escHtml(name) + '</strong>';
-        if (isMeCorresponding) {
-          html = '<span class="author-corresponding">' + html + '</span>';
-        }
-        return html;
-      }
-      return escHtml(name);
-    }).join(', ');
-  }
-
-  function formatAllAuthors() {
-    document.querySelectorAll('#tab-publications .pub-authors[data-authors]').forEach(function (el) {
-      el.innerHTML = formatAuthors(el.getAttribute('data-authors'), el.getAttribute('data-corresponding') || '');
-    });
-  }
-
   function filterByTag(tag) {
-    var items = document.querySelectorAll('#tab-publications .pub-item');
-    items.forEach(function (item) {
+    document.querySelectorAll('#tab-publications .pub-item').forEach(function (item) {
       if (tag === '__all__') {
         item.style.display = '';
       } else {
@@ -180,10 +140,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
 
-    // Hide empty groups
     document.querySelectorAll('#tab-publications .pub-group').forEach(function (group) {
-      var visible = group.querySelectorAll('.pub-item:not([style*="display: none"])');
-      // Also check computed style for items with display:''
       var anyVisible = false;
       group.querySelectorAll('.pub-item').forEach(function (item) {
         if (item.style.display !== 'none') anyVisible = true;
@@ -195,8 +152,6 @@ document.addEventListener('DOMContentLoaded', function () {
   function initPublicationsTab() {
     if (pubTabInited) return;
     pubTabInited = true;
-
-    formatAllAuthors();
 
     var bar = document.getElementById('pub-tag-bar');
     if (!bar) return;
@@ -213,14 +168,18 @@ document.addEventListener('DOMContentLoaded', function () {
   // --- Back to top ---
   var backToTop = document.getElementById('back-to-top');
   if (backToTop) {
+    function getScrollY() {
+      return window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    }
     function updateBackToTop() {
-      if (window.scrollY > 280) {
-        backToTop.classList.add('visible');
+      if (getScrollY() > 200) {
+        backToTop.classList.add('is-visible');
       } else {
-        backToTop.classList.remove('visible');
+        backToTop.classList.remove('is-visible');
       }
     }
     window.addEventListener('scroll', updateBackToTop, { passive: true });
+    window.addEventListener('resize', updateBackToTop);
     updateBackToTop();
     backToTop.addEventListener('click', function () {
       window.scrollTo({ top: 0, behavior: 'smooth' });
