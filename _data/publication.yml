@@ -1,9 +1,181 @@
 publications:
 
-  - title: ""
-    conference_short: ""
-    authors: ""
-    date: ""
-    corresponding_author: ""
+  - title: "Emergent Language as an Approach to Conscious AI"
+    authors: "Wu, Z., & Xiao, C."
+    date: "2026"
+    corresponding_author: "Xiao, C."
+    type: "Preprint"
+    link: "https://arxiv.org/abs/2606.06380"
+    tag: ["emergent language", "conscious", "simulation"]
+
+  - title: "Not All Flips Are Conformity: Decomposing Stance Convergence in Multi-Agent LLM Debate"
+    authors: "Hao, X., Wu, Z., Qiu, YX., Xiao, C., Xu, R., Zheng, S., & Qin, J."
+    date: "2026"
+    corresponding_author: "Wu, Z. & Qin, J."
+    type: "Preprint"
+    link: "https://arxiv.org/abs/2606.00820"
+    tag: ["simulation", "agent", "social science"]
+
+  - title: "The Impact of Grading Systems of Education on Equity, Teaching Efficiency, and Learning Strategies"
+    authors: "Wu, Z. & Xiao, C."
+    date: "2020"
+    corresponding_author: "Xiao, C."
+    type: "Preprint"
+    link: "https://hdl.handle.net/11094/80655"
+    tag: ["education", "social science"]
+
+  - title: "Position: LLM-Based Social Simulations Require a Boundary"
+    venue: "ICML 2026 (Position Paper Track)"
+    authors: "Wu, Z., Peng, R., Ito, T., Onizuka, M. & Xiao, C."
+    date: "2026"
+    corresponding_author: "Wu, Z., & Xiao, C."
+    type: "Conference"
+    link: "https://arxiv.org/abs/2506.19806"
+    tag: ["simulation", "agent", "social science"]
+
+  - title: "The Hidden Strength of Disagreement: Unraveling the Consensus-Diversity Tradeoff in Adaptive Multi-Agent Systems"
+    venue: "EMNLP 2025"
+    authors: "Wu, Z., & Ito, T."
+    date: "2025"
+    corresponding_author: "Wu, Z., & Ito, T."
+    type: "Conference"
+    link: "https://aclanthology.org/2025.emnlp-main.772"
+    tag: ["simulation", "agent", "social science"]
+
+  - title: "Shall We Team Up: Exploring Spontaneous Cooperation of Competing LLM Agents"
+    venue: "EMNLP 2024 (Findings)"
+    authors: "Wu, Z., Peng, R., Zheng, S., Liu, Q., Han, X., Kwon, B., ... & Xiao, C."
+    date: "2024"
+    corresponding_author: "Xiao, C."
+    type: "Conference"
+    link: "https://aclanthology.org/2024.findings-emnlp.297/"
+    tag: ["simulation", "agent", "social science"]
+
+  - title: "Large language models as urban residents: An llm agent framework for personal mobility generation"
+    venue: "NeurIPS 2024"
+    authors: "Wang, J., Jiang, R., Yang, C., Wu, Z., Onizuka, M., Shibasaki, R., Koshizuka, N., & Xiao, C."
+    date: "2024"
+    corresponding_author: "Jiang, R."
+    type: "Conference"
+    link: "https://proceedings.neurips.cc/paper_files/paper/2024/hash/e142fd2b70f10db2543c64bca1417de8-Abstract-Conference.html"
+    tag: ["simulation", "agent", "mobility"]
+
+  - title: "Utilization of Information Entropy in Training and Evaluation of Students’ Abstraction Performance and Algorithm Efficiency in Programming"
+    venue: "IEEE Transactions on Education, 67(2)"
+    authors: "Wu, Z., Liu, H., & Xiao, C."
+    date: "2024"
+    corresponding_author: "Wu, Z., & Xiao, C."
+    type: "Journal"
+    link: "https://ieeexplore.ieee.org/document/10419197/"
+    tag: ["education"]
+
+  - title: "\"Guinea Pig Trials\" Utilizing GPT: A Novel Smart Agent-Based Modeling Approach for Studying Firm Competition and Collusion"
+    venue: "Conference on Information Systems and Technology (CIST) 2023"
+    authors: "Han, X., Wu, Z., & Xiao, C."
+    date: "2023"
+    corresponding_author: "Han, X."
+    type: "Conference"
+    link: "https://arxiv.org/abs/2308.10974"
+    tag: ["simulation", "agent", "economics"]
+
+  - title: "Exploring the balance between computational thinking and learning motivation in elementary programming education: An empirical study with game-based learning"
+    venue: "IEEE Transactions on Games, 15(1)"
+    authors: "Liu, H., Wu, Z., Lu, Y., & Zhu, L."
+    date: "2022"
+    corresponding_author: "Wu, Z."
+    type: "Journal"
+    link: "https://ieeexplore.ieee.org/abstract/document/9684681"
+    tag: ["education"]
+
+  - title: "SABM：大規模言語モデルに基づくエージェントベース実世界シミュレーション"
+    venue: "Proceedings of 16th Forum on Data Engineering and Information Management (DEIM 2024)"
+    authors: "Wu, Z., Peng, R., Han., X., Zheng, S., & Xiao, C."
+    date: "2024"
+    corresponding_author: "Xiao, C."
+    type: "Local Conference"
+    link: "https://pub.confit.atlas.jp/ja/event/deim2024/presentation/T5-B-8-05"
+    tag: ["simulation", "agent"]
+
+  - title: "A Token-Free Approach to Entity-Based Keyword Search in Classical Chinese"
+    venue: "Proceedings of 16th Forum on Data Engineering and Information Management (DEIM 2024)"
+    authors: "Jiang, Z., Wu, Z., Xiao, C., Sasaki, Y., & Onizuka, M."
+    date: "2024"
+    corresponding_author: "Xiao, C."
+    type: "Local Conference"
+    link: "https://pub.confit.atlas.jp/ja/event/deim2024/presentation/T3-B-2-04"
+    tag: ["NLP"]
+
+  - title: "Token-Free Cross-Lingual Named Entity Recognition for Classical Chinese"
+    venue: "Proceedings of 15th Forum on Data Engineering and Information Management (DEIM 2023)"
+    authors: "Jiang, Z., Wu, Z., & Xiao, C."
+    date: "2023"
+    corresponding_author: "Xiao, C."
+    type: "Local Conference"
+    link: "https://proceedings-of-deim.github.io/DEIM2023/1b-6-2.pdf"
+    tag: ["NLP"]
+
+  - title: "The Implications and Practices of Mathematical Abstraction and Mechanistic Analysis in Mathematical Modeling Teaching in Secondary Schools"
+    venue: "School Mathematics in Shanghai, 2022(Z2)"
+    authors: "Wang, J. & Wu, Z."
+    date: "2022"
+    corresponding_author: "Wu, Z."
+    type: "Local Journal"
+    link: "https://d.wanfangdata.com.cn/periodical/shzxsx202207021"
+    tag: ["education"]
+
+  - title: "The Teaching Strategy of Isomerism of the Same Topic for the New Subject “Biology Interdisciplinary Case Analysis” in Shanghai Senior High School Entrance Examination"
+    venue: "Biology Teaching, 46(9)"
+    authors: "Zhu, S., Zhao, J., & Wu, Z."
+    date: "2021"
+    corresponding_author: "Wu, Z."
+    type: "Local Journal"
+    link: "https://d.wanfangdata.com.cn/periodical/swxjx202109005"
+    tag: ["education"]
+
+  - title: "Smart agent-based modeling: On the use of large language models in computer simulations"
+    authors: "Wu, Z., Peng, R., Han, X., Zheng, S., Zhang, Y., & Xiao, C."
+    date: "2023"
+    corresponding_author: "Xiao, C."
+    type: "Preprint"
+    link: "https://arxiv.org/abs/2311.06330"
+    tag: ["simulation", "agent"]
+
+  - title: "Bridging the Gap: Utilizing Knowledge Graphs to Uncover Inconsistencies in Social Science Theories"
+    authors: "Wu, Z."
+    date: "2023"
+    corresponding_author: "Etzrodt, C."
+    type: "Preprint"
+    link: "https://zenodo.org/records/21202054"
+    tag: ["social science"]
+
+presentations:
+
+  - title: "Some Initial Attempts and Insights on LLM-Based Social Simulations"
+    venue: "7th Joint Korea-Japan Workshop on Management of Data (KJMD 2025)"
+    place: "Busan, South Korea"
+    date: "Oct. 2025"
+    type: "Oral"
+
+  - title: "LLM-Based Social Simulations Require a Boundary"
+    venue: "2025 Michigan AI Symposium"
+    place: "Ann Arbor, USA"
+    date: "Oct. 2025"
+    type: "Poster"
+
+  - title: "Shall We Team Up: Exploring Spontaneous Cooperation of Competing LLM Agents"
+    venue: "2024 Australasian Database Conference (ADC 2024)"
+    place: "Tokyo, Japan"
+    date: "Dec. 2024"
+    type: "Poster"
   
-  
+  - title: "Shall We Team Up: Exploring Spontaneous Cooperation of Competing LLM Agents"
+    venue: "ICML 2024 Workshop Agentic Markets (AMW @ ICML 2024)"
+    place: "Vienna, Austria"
+    date: "Jul. 2024"
+    type: "Poster"
+
+  - title: "Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations"
+    venue: "Eighth International Workshop on Symbolic-Neural Learning (SNL 2024)"
+    place: "Tokyo, Japan"
+    date: "Jun. 2024"
+    type: "Poster"

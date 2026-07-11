@@ -25,3 +25,5 @@ Zengqing Wu is a researcher at The University of Osaka under the supervision of 
 {% include_relative _includes/awards.md %}
 
 {% include_relative _includes/services.md %}
+
+{% include_relative _includes/funding.md %}

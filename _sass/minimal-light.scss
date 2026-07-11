@@ -665,23 +665,23 @@ footer {
 .pagination {
   display: flex;
   flex-wrap: wrap;
-  gap: 3px;
-  margin: 4px 0 40px 0;
-  padding-left: 52px;
+  gap: 4px;
+  margin: 2px 0 40px 0;
+  padding-left: 0;
 }
 
 .pagination .page-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 17px;
-  height: 17px;
-  padding: 0 4px;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
   border: 1px solid #d0d5dd;
   border-radius: 3px;
   background: #fff;
   color: #043361;
-  font-size: 10px;
+  font-size: 11.5px;
   font-weight: 500;
   cursor: pointer;
   text-decoration: none;
@@ -749,6 +749,180 @@ footer {
 .tab-content {
   width: 100%;
   box-sizing: border-box;
+}
+
+/* Publications tab */
+.pub-note {
+  font-size: 13px;
+  color: #888;
+  margin: -8px 0 12px 0;
+}
+
+.tag-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.pub-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border: 1px solid #c8d0dc;
+  border-radius: 20px;
+  font-size: 12.5px;
+  color: #043361;
+  background: #f5f7fa;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.18s, border-color 0.18s, color 0.18s;
+}
+
+.pub-tag:hover {
+  background: #e4ecf5;
+  border-color: #043361;
+  color: #043361;
+}
+
+.pub-tag.active {
+  background: #043361;
+  border-color: #043361;
+  color: #fff;
+}
+
+.pub-tag .tag-count {
+  font-size: 11px;
+  opacity: 0.8;
+}
+
+.pub-group {
+  margin-bottom: 24px;
+}
+
+.pub-group-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #043361;
+  margin: 0 0 10px 0;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pub-item {
+  margin-bottom: 12px;
+}
+
+.pub-entry {
+  line-height: 1.5;
+}
+
+.pub-title {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.pub-title a {
+  color: #043361;
+  text-decoration: none;
+}
+
+.pub-title a:hover {
+  text-decoration: underline;
+}
+
+.pub-authors {
+  font-size: 13px;
+  color: #444;
+  margin-top: 2px;
+}
+
+.pub-meta {
+  font-size: 12.5px;
+  color: #666;
+  margin-top: 1px;
+}
+
+.author-corresponding strong {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Talks */
+.talks-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.talk-item {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.talk-type {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 1px 7px;
+  border-radius: 3px;
+  margin-right: 4px;
+  vertical-align: middle;
+  background: #e4ecf5;
+  color: #043361;
+}
+
+.talk-type-oral {
+  background: #d4edda;
+  color: #155724;
+}
+
+.talk-type-poster {
+  background: #e4ecf5;
+  color: #043361;
+}
+
+.talk-meta {
+  font-size: 12.5px;
+  color: #666;
+}
+
+@media (prefers-color-scheme: dark) {
+  .pub-note { color: #888; }
+
+  .pub-tag {
+    background: #2a2b35;
+    border-color: #3a3b45;
+    color: rgb(62, 183, 240);
+  }
+  .pub-tag:hover {
+    background: #35364a;
+    border-color: rgb(62, 183, 240);
+  }
+  .pub-tag.active {
+    background: rgb(62, 183, 240);
+    border-color: rgb(62, 183, 240);
+    color: #20212b;
+  }
+  .pub-group-title {
+    color: rgb(62, 183, 240);
+    border-bottom-color: #3a3b45;
+  }
+  .pub-title a { color: rgb(62, 183, 240); }
+  .pub-authors { color: #b0b4c0; }
+  .pub-meta { color: #888; }
+  .talk-type { background: #2a2b35; color: rgb(62, 183, 240); }
+  .talk-type-oral { background: #1a2e1a; color: #7ecf7e; }
+  .talk-type-poster { background: #2a2b35; color: rgb(62, 183, 240); }
+  .talk-meta { color: #888; }
 }
 
 /* Responsive nav */
