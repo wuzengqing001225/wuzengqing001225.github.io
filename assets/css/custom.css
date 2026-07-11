@@ -1,5 +1,50 @@
 /* Custom overrides — loaded after theme CSS */
 
+/* ---- Section title spacing ---- */
+section h2,
+#tab-biography h2,
+#section-news > h2,
+#section-highlights,
+#section-education > h2,
+#section-awards > h2,
+#section-services > h2,
+#section-funding > h2,
+#section-funding-heading {
+  margin-top: 1.6em !important;
+  margin-bottom: 0.7em !important;
+}
+
+#section-news > h2 {
+  margin-top: 1.2em !important;
+}
+
+#section-highlights {
+  margin-top: 1.8em !important;
+}
+
+#section-funding,
+#section-funding > h2,
+#section-funding-heading {
+  margin-top: 1.8em !important;
+}
+
+#section-awards > h3 {
+  margin-top: 1em !important;
+  margin-bottom: 0.45em !important;
+}
+
+.services-category {
+  margin: 1em 0 0.35em 0 !important;
+}
+
+.services-category:first-of-type {
+  margin-top: 0.35em !important;
+}
+
+.services-list {
+  margin: 0 0 0.85em 0 !important;
+}
+
 /* ---- Nav: solid blue underline, no double line ---- */
 .section-nav .nav-item {
   border-bottom: none;
@@ -95,15 +140,17 @@
 
 #news-pagination {
   padding-left: 1.25em;
+  margin-bottom: 0.4em;
 }
 
 #highlights-pagination {
   padding-left: 0;
   margin-top: 4px;
+  margin-bottom: 0.4em;
 }
 
 .highlights-block {
-  margin-top: 0.6rem !important;
+  margin-top: 0.25rem !important;
 }
 
 .highlights-block ol.bibliography {

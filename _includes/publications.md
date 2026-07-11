@@ -1,4 +1,4 @@
-<h2 id="section-highlights" style="margin: 2px 0px -15px;">Highlights</h2>
+<h2 id="section-highlights">Highlights</h2>
 
 <div class="publications highlights-block">
 <ol class="bibliography" id="highlights-list">
