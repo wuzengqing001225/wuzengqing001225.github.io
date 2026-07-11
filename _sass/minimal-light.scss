@@ -627,8 +627,8 @@ footer {
   cursor: pointer;
   text-decoration: none;
   transition: color 0.2s;
-  border-bottom: 2.5px solid transparent;
-  margin-bottom: -1.5px;
+  border-bottom: none;
+  margin-bottom: 0;
 }
 
 .section-nav .nav-item:hover {
@@ -639,12 +639,13 @@ footer {
   content: '';
   position: absolute;
   left: 50%;
-  bottom: -1.5px;
+  bottom: 0;
   width: 0;
   height: 2.5px;
   background: #043361;
-  border-radius: 2px;
-  transition: width 0.25s ease, left 0.25s ease, box-shadow 0.25s ease;
+  border-radius: 0;
+  z-index: 1;
+  transition: width 0.25s ease, left 0.25s ease;
 }
 
 .section-nav .nav-item:hover::after,
@@ -654,7 +655,7 @@ footer {
 }
 
 .section-nav .nav-item.active::after {
-  box-shadow: 0 2px 6px rgba(4, 51, 97, 0.25);
+  box-shadow: none;
 }
 
 .section-nav .nav-item.active {
@@ -761,7 +762,7 @@ footer {
   }
 
   .section-nav .nav-item.active::after {
-    box-shadow: 0 2px 6px rgba(62, 183, 240, 0.3);
+    box-shadow: none;
   }
 
   .section-nav .nav-item.active {
@@ -904,10 +905,16 @@ footer {
   white-space: nowrap;
 }
 
-.author-corresponding,
+.author-corresponding {
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 1px;
+}
+
 .author-corresponding strong {
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  text-decoration: none;
+  border-bottom: none;
+  font-weight: 700;
 }
 
 /* Talks */

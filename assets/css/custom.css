@@ -1,5 +1,37 @@
 /* Custom overrides — loaded after theme CSS */
 
+/* ---- Nav: solid blue underline, no double line ---- */
+.section-nav .nav-item {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.section-nav .nav-item::after {
+  bottom: 0;
+  height: 2.5px;
+  border-radius: 0;
+  box-shadow: none;
+  z-index: 1;
+}
+
+.section-nav .nav-item:hover::after,
+.section-nav .nav-item.active::after {
+  box-shadow: none;
+}
+
+.section-nav .nav-item.active::after {
+  background: #043361;
+  box-shadow: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .section-nav .nav-item.active::after,
+  .section-nav .nav-item:hover::after {
+    background: rgb(62, 183, 240);
+    box-shadow: none;
+  }
+}
+
 /* ---- Back to top ---- */
 .back-to-top {
   position: fixed;
@@ -203,15 +235,15 @@
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  padding: 4px 11px;
+  padding: 4px 12px;
   border: 1px solid #c8d0dc;
-  border-radius: 3px;
+  border-radius: 20px;
   font-size: 13px;
   color: #043361;
-  background: #f7f8fa;
+  background: #f5f7fa;
   cursor: pointer;
   text-decoration: none;
-  transition: background 0.15s, border-color 0.15s;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
 }
 
 #tab-publications .pub-tag:hover {
@@ -278,23 +310,29 @@
 
 #tab-publications .pub-item-tag {
   display: inline-block;
-  margin: 0 0 0 5px;
-  padding: 1px 7px;
-  border: 1px solid #d5dae0;
-  border-radius: 2px;
+  margin: 0 0 0 6px;
+  padding: 1px 8px;
+  border: 1px solid #c8d0dc;
+  border-radius: 10px;
   font-size: 11.5px;
   font-style: normal;
-  color: #4a5560;
-  background: #f3f4f6;
+  color: #043361;
+  background: #f5f7fa;
   vertical-align: middle;
   white-space: nowrap;
   line-height: 1.4;
 }
 
-#tab-publications .author-corresponding,
+#tab-publications .author-corresponding {
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 1px;
+}
+
 #tab-publications .author-corresponding strong {
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  text-decoration: none;
+  border-bottom: none;
+  font-weight: 700;
 }
 
 #tab-publications .talk-item {
@@ -312,13 +350,25 @@
   display: inline-block;
   font-size: 11.5px;
   font-weight: 600;
-  padding: 1px 7px;
-  border-radius: 2px;
+  padding: 1px 8px;
+  border-radius: 10px;
   margin-right: 4px;
   vertical-align: middle;
   background: #eef2f6;
   color: #043361;
   border: 1px solid #d5dae0;
+}
+
+#tab-publications .talk-type-oral {
+  background: #d4edda;
+  color: #155724;
+  border-color: #b7dfc2;
+}
+
+#tab-publications .talk-type-poster {
+  background: #e4ecf5;
+  color: #043361;
+  border-color: #c8d0dc;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -348,9 +398,19 @@
   #tab-publications .pub-item-tag {
     background: #2a2b35;
     border-color: #3a3b45;
-    color: #a0a8b4;
+    color: rgb(62, 183, 240);
   }
   #tab-publications .talk-type {
+    background: #2a2b35;
+    border-color: #3a3b45;
+    color: rgb(62, 183, 240);
+  }
+  #tab-publications .talk-type-oral {
+    background: #1a2e1a;
+    border-color: #2a4a2a;
+    color: #7ecf7e;
+  }
+  #tab-publications .talk-type-poster {
     background: #2a2b35;
     border-color: #3a3b45;
     color: rgb(62, 183, 240);

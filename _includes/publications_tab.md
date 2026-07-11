@@ -40,7 +40,7 @@
     {% endfor %}
   </div>
 
-  {% assign type_order = "Conference,Local Conference,Journal,Local Journal,Preprint" | split: "," %}
+  {% assign type_order = "Conference,Journal,Preprint,Local Conference,Local Journal" | split: "," %}
   {% assign type_labels = "Conference Papers,Journal Articles,Preprints,Local Conference Papers,Local Journal Articles" | split: "," %}
 
   <div id="pub-groups">
