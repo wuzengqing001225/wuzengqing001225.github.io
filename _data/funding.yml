@@ -1,7 +1,7 @@
-# 在此添加资助信息，格式示例：
-# - year: 2025
-#   title: "Grant Title"
-#   agency: "Funding Agency"
-#   role: "Principal Investigator"
-#   amount: "¥1,000,000"
-#   note: "Optional note"
+- year: 2026
+  title: "大阪大学 次世代AI人材育成事業（BOOST）"
+  agency: "Osaka University"
+
+- year: 2020
+  title: "大阪大学 令和2年度学部学生による自主研究奨励事業"
+  agency: "Osaka University"
