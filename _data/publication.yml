@@ -1,5 +1,21 @@
 publications:
 
+  - title: "Proxy reliance in large language model decisions is uncalibrated to predictive evidence"
+    authors: "Wu, Z., & Xiao, C."
+    date: "2026"
+    corresponding_author: "Xiao, C."
+    type: "Preprint"
+    link: "https://arxiv.org/abs/2608.22887"
+    tag: ["simulation", "agent", "social science"]
+
+  - title: "Predicting the scale limits of social mechanisms in agent societies"
+    authors: "Wu, Z., & Xiao, C."
+    date: "2026"
+    corresponding_author: "Xiao, C."
+    type: "Preprint"
+    link: "https://arxiv.org/abs/2608.22884"
+    tag: ["simulation", "agent", "social science"]
+
   - title: "When Fairness Evolves: Value Orientation and Evolution in Multi-Agent Resource Allocation"
     venue: "EMNLP 2026"
     authors: "Gao, S., Wu, Z., Qiu, YX., Xiao, C., Xu, R., & Qin, J."
