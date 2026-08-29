@@ -1,5 +1,14 @@
 publications:
 
+  - title: "When Fairness Evolves: Value Orientation and Evolution in Multi-Agent Resource Allocation"
+    venue: "EMNLP 2026"
+    authors: "Gao, S., Wu, Z., Qiu, YX., Xiao, C., Xu, R., & Qin, J."
+    date: "2026"
+    corresponding_author: "Qin, J."
+    type: "Conference"
+    link: "https://arxiv.org/abs/2606.06380"
+    tag: ["simulation", "agent", "social science"]
+  
   - title: "Emergent Language as an Approach to Conscious AI"
     authors: "Wu, Z., & Xiao, C."
     date: "2026"
