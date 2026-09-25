@@ -1,5 +1,14 @@
 publications:
 
+  - title: "SimLife: Pattern Understanding for Long-Horizon Human-Agent Partnership"
+    venue: "CoLM 2026 LSEI Workshop"
+    authors: "Peng, R., Nie, Z., Ding, J., Dai, Y., Zhang, Y., Wu, Z., Fu, Y., Ma, Z., Mao, J., & Chai, J."
+    date: "2026"
+    corresponding_author: "Peng, R., & Chai, J."
+    type: "Conference"
+    link: "https://arxiv.org/abs/2609.19610"
+    tag: ["agent", "long context learning"]
+
   - title: "Proxy reliance in large language model decisions is uncalibrated to predictive evidence"
     authors: "Wu, Z., & Xiao, C."
     date: "2026"
