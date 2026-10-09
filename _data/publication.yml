@@ -1,5 +1,13 @@
 publications:
 
+  - title: "MotiveMob: Motivation as Semantic Action for Closed-Loop Human Mobility Generation"
+    authors: "Gao, M., Wu, Z., Jiang, R., Wang, J., Wang, Y., Yang, C., Zheng, S., Onizuka, M., & Xiao, C."
+    date: "2026"
+    corresponding_author: "Xiao, C."
+    type: "Preprint"
+    link: "https://arxiv.org/abs/2610.11442"
+    tag: ["simulation", "agent", "mobility"]
+
   - title: "SimLife: Pattern Understanding for Long-Horizon Human-Agent Partnership"
     venue: "CoLM 2026 LSEI Workshop"
     authors: "Peng, R., Nie, Z., Ding, J., Dai, Y., Zhang, Y., Wu, Z., Fu, Y., Ma, Z., Mao, J., & Chai, J."
