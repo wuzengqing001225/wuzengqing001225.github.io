@@ -17,7 +17,7 @@ publications:
     link: "https://arxiv.org/abs/2609.19610"
     tag: ["agent", "long context learning"]
 
-  - title: "Proxy reliance in large language model decisions is uncalibrated to predictive evidence"
+  - title: "Language Models Give Group-Linked Fields the Wrong Weight"
     authors: "Wu, Z., & Xiao, C."
     date: "2026"
     corresponding_author: "Xiao, C."
@@ -39,7 +39,7 @@ publications:
     date: "2026"
     corresponding_author: "Qin, J."
     type: "Conference"
-    link: "https://arxiv.org/abs/2606.06380"
+    link: "https://aclanthology.org/2026.emnlp-main.1334/"
     tag: ["simulation", "agent", "social science"]
   
   - title: "Emergent Language as an Approach to Conscious AI"
